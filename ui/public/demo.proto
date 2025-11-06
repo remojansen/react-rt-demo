@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message TradingUpdates {
+  repeated double data = 1 [packed=true];  // 7 values per stock: [stockIndex, last, change, changePercentage, high, low, volume]
+  int32 stock_count = 2;                   // Number of stocks in this update
+}
+
+message SymbolData {
+  repeated string symbols = 1;
+  repeated string names = 2;
+}
