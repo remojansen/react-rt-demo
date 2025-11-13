@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "tsx src/index.ts",
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "tsx --test tests/*.test.ts",
 		"lint": "npx @biomejs/biome lint --write",
 		"format": "npx @biomejs/biome format --write",
 		"lint-and-format": "npx @biomejs/biome check --write --unsafe"

@@ -3,30 +3,35 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"prebuild": "npm run build:worker",
-		"predev": "npm run build:worker",
-		"build:worker": "tsc workers/websocket.worker.ts --outDir public --target es2020 --lib es2020,webworker --moduleResolution node --skipLibCheck --module none --noResolve",
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "npx @biomejs/biome lint --write",
 		"format": "npx @biomejs/biome format --write",
-		"lint-and-format": "npx @biomejs/biome check --write --unsafe"
+		"lint-and-format": "npx @biomejs/biome check --write --unsafe",
+		"debug-socket": "tsx devtools/debug-socket.ts"
 	},
 	"dependencies": {
 		"next": "16.0.1",
 		"protobufjs": "^7.5.4",
 		"react": "19.2.0",
-		"react-dom": "19.2.0"
+		"react-dom": "19.2.0",
+		"react-window": "^2.2.3"
 	},
 	"devDependencies": {
+		"@playwright/test": "^1.56.1",
 		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20",
+		"@types/protobufjs": "^6.0.0",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
+		"@types/ws": "^8.5.10",
+		"esbuild": "^0.23.1",
 		"eslint": "^9",
 		"eslint-config-next": "16.0.1",
 		"tailwindcss": "^4",
-		"typescript": "^5"
+		"tsx": "^4.16.5",
+		"typescript": "^5",
+		"ws": "^8.14.2"
 	}
 }

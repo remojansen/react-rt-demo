@@ -1,0 +1,5032 @@
+[
+	{
+		"symbol": "A",
+		"name": "Agilent Technologies",
+		"last": 146.74,
+		"change": -0.75,
+		"changePercentage": -0.51,
+		"high": 147.12,
+		"low": 144.58,
+		"volume": 1027100
+	},
+	{
+		"symbol": "AAPL",
+		"name": "Apple Inc",
+		"last": 268.47,
+		"change": -1.3,
+		"changePercentage": -0.48,
+		"high": 272.29,
+		"low": 266.77,
+		"volume": 48227301
+	},
+	{
+		"symbol": "ABBV",
+		"name": "Abbvie Inc",
+		"last": 219.16,
+		"change": 0.12,
+		"changePercentage": 0.05,
+		"high": 220.99,
+		"low": 217.09,
+		"volume": 4647800
+	},
+	{
+		"symbol": "ABNB",
+		"name": "Airbnb Inc Cl A",
+		"last": 120.88,
+		"change": 0.35,
+		"changePercentage": 0.29,
+		"high": 125.76,
+		"low": 117.15,
+		"volume": 11755900
+	},
+	{
+		"symbol": "ABT",
+		"name": "Abbott Laboratories",
+		"last": 126.36,
+		"change": 1.41,
+		"changePercentage": 1.13,
+		"high": 126.62,
+		"low": 124.65,
+		"volume": 5458500
+	},
+	{
+		"symbol": "ACGL",
+		"name": "Arch Capital Grp Ltd",
+		"last": 89.57,
+		"change": 1.81,
+		"changePercentage": 2.06,
+		"high": 89.64,
+		"low": 87.79,
+		"volume": 2431500
+	},
+	{
+		"symbol": "ACN",
+		"name": "Accenture Plc",
+		"last": 245.76,
+		"change": 4.42,
+		"changePercentage": 1.83,
+		"high": 246.55,
+		"low": 239.44,
+		"volume": 4047400
+	},
+	{
+		"symbol": "ADBE",
+		"name": "Adobe Systems Inc",
+		"last": 326.95,
+		"change": -0.4,
+		"changePercentage": -0.12,
+		"high": 331.01,
+		"low": 323.03,
+		"volume": 4112500
+	},
+	{
+		"symbol": "ADI",
+		"name": "Analog Devices",
+		"last": 228.48,
+		"change": -4.4,
+		"changePercentage": -1.89,
+		"high": 230.8,
+		"low": 223.47,
+		"volume": 4583600
+	},
+	{
+		"symbol": "ADM",
+		"name": "Archer Daniels Midland",
+		"last": 56.98,
+		"change": 0.26,
+		"changePercentage": 0.46,
+		"high": 56.99,
+		"low": 56.22,
+		"volume": 3740000
+	},
+	{
+		"symbol": "ADP",
+		"name": "Automatic Data Processing",
+		"last": 254.16,
+		"change": 1.8,
+		"changePercentage": 0.71,
+		"high": 255.38,
+		"low": 251.62,
+		"volume": 2442000
+	},
+	{
+		"symbol": "ADSK",
+		"name": "Autodesk Inc",
+		"last": 297.18,
+		"change": 2.32,
+		"changePercentage": 0.79,
+		"high": 297.47,
+		"low": 293.51,
+		"volume": 950600
+	},
+	{
+		"symbol": "AEE",
+		"name": "Ameren Corp",
+		"last": 104.65,
+		"change": 2.64,
+		"changePercentage": 2.59,
+		"high": 104.83,
+		"low": 102.05,
+		"volume": 2283300
+	},
+	{
+		"symbol": "AEP",
+		"name": "American Electric Power Company",
+		"last": 121.43,
+		"change": 1.9,
+		"changePercentage": 1.59,
+		"high": 121.6,
+		"low": 119.89,
+		"volume": 3283800
+	},
+	{
+		"symbol": "AES",
+		"name": "The Aes Corp",
+		"last": 14.13,
+		"change": -0.06,
+		"changePercentage": -0.42,
+		"high": 14.15,
+		"low": 13.72,
+		"volume": 12468900
+	},
+	{
+		"symbol": "AFL",
+		"name": "Aflac Inc",
+		"last": 114.09,
+		"change": 0.39,
+		"changePercentage": 0.34,
+		"high": 114.78,
+		"low": 113.3,
+		"volume": 2337600
+	},
+	{
+		"symbol": "AIG",
+		"name": "American International Group",
+		"last": 76.93,
+		"change": 0.65,
+		"changePercentage": 0.85,
+		"high": 77.49,
+		"low": 76.37,
+		"volume": 4259500
+	},
+	{
+		"symbol": "AIZ",
+		"name": "Assurant Inc",
+		"last": 224.32,
+		"change": 7.51,
+		"changePercentage": 3.46,
+		"high": 225.83,
+		"low": 216.15,
+		"volume": 451900
+	},
+	{
+		"symbol": "AJG",
+		"name": "Arthur J. Gallagher & Company",
+		"last": 250.01,
+		"change": 4.77,
+		"changePercentage": 1.95,
+		"high": 250.89,
+		"low": 244.66,
+		"volume": 1746600
+	},
+	{
+		"symbol": "AKAM",
+		"name": "Akamai Technologies",
+		"last": 83.74,
+		"change": 10.74,
+		"changePercentage": 14.71,
+		"high": 86.23,
+		"low": 76.75,
+		"volume": 9629101
+	},
+	{
+		"symbol": "ALB",
+		"name": "Albemarle Corp",
+		"last": 97.18,
+		"change": 5.92,
+		"changePercentage": 6.49,
+		"high": 98.42,
+		"low": 90.01,
+		"volume": 4482700
+	},
+	{
+		"symbol": "ALGN",
+		"name": "Align Technology",
+		"last": 134.84,
+		"change": 1.11,
+		"changePercentage": 0.83,
+		"high": 134.99,
+		"low": 132.39,
+		"volume": 810800
+	},
+	{
+		"symbol": "ALL",
+		"name": "Allstate Corp",
+		"last": 202.29,
+		"change": 4.28,
+		"changePercentage": 2.16,
+		"high": 203.16,
+		"low": 199.0,
+		"volume": 1360300
+	},
+	{
+		"symbol": "ALLE",
+		"name": "Allegion Plc",
+		"last": 167.35,
+		"change": 2.28,
+		"changePercentage": 1.38,
+		"high": 167.63,
+		"low": 164.69,
+		"volume": 613500
+	},
+	{
+		"symbol": "AMAT",
+		"name": "Applied Materials",
+		"last": 230.07,
+		"change": -3.46,
+		"changePercentage": -1.48,
+		"high": 232.52,
+		"low": 223.38,
+		"volume": 6892700
+	},
+	{
+		"symbol": "AMCR",
+		"name": "Amcor Plc",
+		"last": 8.37,
+		"change": 0.15,
+		"changePercentage": 1.82,
+		"high": 8.37,
+		"low": 8.17,
+		"volume": 26524900
+	},
+	{
+		"symbol": "AMD",
+		"name": "Adv Micro Devices",
+		"last": 233.54,
+		"change": -4.16,
+		"changePercentage": -1.75,
+		"high": 235.87,
+		"low": 224.64,
+		"volume": 52162500
+	},
+	{
+		"symbol": "AME",
+		"name": "Ametek Inc",
+		"last": 196.29,
+		"change": -0.96,
+		"changePercentage": -0.49,
+		"high": 197.01,
+		"low": 193.98,
+		"volume": 1417400
+	},
+	{
+		"symbol": "AMGN",
+		"name": "Amgen Inc",
+		"last": 320.2,
+		"change": 4.61,
+		"changePercentage": 1.46,
+		"high": 321.42,
+		"low": 314.0,
+		"volume": 2665300
+	},
+	{
+		"symbol": "AMP",
+		"name": "Ameriprise Financial Services",
+		"last": 461.43,
+		"change": 3.91,
+		"changePercentage": 0.85,
+		"high": 462.59,
+		"low": 450.67,
+		"volume": 697500
+	},
+	{
+		"symbol": "AMT",
+		"name": "American Tower Corp",
+		"last": 177.95,
+		"change": -0.14,
+		"changePercentage": -0.08,
+		"high": 178.48,
+		"low": 175.38,
+		"volume": 4255800
+	},
+	{
+		"symbol": "AMZN",
+		"name": "Amazon.com Inc",
+		"last": 244.41,
+		"change": 1.37,
+		"changePercentage": 0.56,
+		"high": 244.9,
+		"low": 238.49,
+		"volume": 46374199
+	},
+	{
+		"symbol": "ANET",
+		"name": "Arista Networks Inc",
+		"last": 134.65,
+		"change": 0.63,
+		"changePercentage": 0.47,
+		"high": 136.61,
+		"low": 132.45,
+		"volume": 11341600
+	},
+	{
+		"symbol": "AON",
+		"name": "AON Plc",
+		"last": 346.32,
+		"change": 6.32,
+		"changePercentage": 1.86,
+		"high": 348.18,
+		"low": 339.01,
+		"volume": 1500500
+	},
+	{
+		"symbol": "AOS",
+		"name": "Smith A.O. Corp",
+		"last": 66.26,
+		"change": 0.68,
+		"changePercentage": 1.04,
+		"high": 66.39,
+		"low": 65.33,
+		"volume": 1172700
+	},
+	{
+		"symbol": "APA",
+		"name": "Apa Corp",
+		"last": 23.83,
+		"change": 0.19,
+		"changePercentage": 0.8,
+		"high": 24.18,
+		"low": 23.28,
+		"volume": 6708300
+	},
+	{
+		"symbol": "APD",
+		"name": "Air Products and Chemicals",
+		"last": 259.74,
+		"change": 0.95,
+		"changePercentage": 0.37,
+		"high": 260.74,
+		"low": 255.0,
+		"volume": 1666800
+	},
+	{
+		"symbol": "APH",
+		"name": "Amphenol Corp",
+		"last": 139.09,
+		"change": 0.98,
+		"changePercentage": 0.71,
+		"high": 139.21,
+		"low": 134.51,
+		"volume": 8749400
+	},
+	{
+		"symbol": "APO",
+		"name": "Apollo Asset Management Inc",
+		"last": 132.37,
+		"change": 3.39,
+		"changePercentage": 2.63,
+		"high": 132.65,
+		"low": 126.99,
+		"volume": 4214500
+	},
+	{
+		"symbol": "APP",
+		"name": "Applovin Corp Cl A",
+		"last": 619.93,
+		"change": -1.43,
+		"changePercentage": -0.23,
+		"high": 633.59,
+		"low": 576.41,
+		"volume": 6656100
+	},
+	{
+		"symbol": "APTV",
+		"name": "Aptiv Plc",
+		"last": 83.66,
+		"change": 1.56,
+		"changePercentage": 1.9,
+		"high": 83.71,
+		"low": 81.66,
+		"volume": 2230800
+	},
+	{
+		"symbol": "ARE",
+		"name": "Alexandria Real Estate Equities",
+		"last": 55.61,
+		"change": 2.44,
+		"changePercentage": 4.59,
+		"high": 55.65,
+		"low": 52.95,
+		"volume": 2936800
+	},
+	{
+		"symbol": "ATO",
+		"name": "Atmos Energy Corp",
+		"last": 176.91,
+		"change": 1.43,
+		"changePercentage": 0.81,
+		"high": 177.87,
+		"low": 175.29,
+		"volume": 1343500
+	},
+	{
+		"symbol": "AVB",
+		"name": "Avalonbay Communities",
+		"last": 177.38,
+		"change": 2.14,
+		"changePercentage": 1.22,
+		"high": 177.67,
+		"low": 175.23,
+		"volume": 910800
+	},
+	{
+		"symbol": "AVGO",
+		"name": "Broadcom Ltd",
+		"last": 349.43,
+		"change": -6.16,
+		"changePercentage": -1.73,
+		"high": 354.5,
+		"low": 337.27,
+		"volume": 21903201
+	},
+	{
+		"symbol": "AVY",
+		"name": "Avery Dennison Corp",
+		"last": 174.07,
+		"change": 2.12,
+		"changePercentage": 1.23,
+		"high": 174.81,
+		"low": 172.18,
+		"volume": 523000
+	},
+	{
+		"symbol": "AWK",
+		"name": "American Water Works",
+		"last": 130.84,
+		"change": 1.34,
+		"changePercentage": 1.03,
+		"high": 131.59,
+		"low": 129.71,
+		"volume": 1446600
+	},
+	{
+		"symbol": "AXON",
+		"name": "Axon Enterprise Inc",
+		"last": 602.51,
+		"change": 15.37,
+		"changePercentage": 2.62,
+		"high": 611.21,
+		"low": 577.8,
+		"volume": 1049800
+	},
+	{
+		"symbol": "AXP",
+		"name": "American Express Company",
+		"last": 368.54,
+		"change": 2.81,
+		"changePercentage": 0.77,
+		"high": 370.0,
+		"low": 361.0,
+		"volume": 2752200
+	},
+	{
+		"symbol": "AZO",
+		"name": "Autozone",
+		"last": 3718.26,
+		"change": 44.6,
+		"changePercentage": 1.21,
+		"high": 3718.84,
+		"low": 3645.96,
+		"volume": 115700
+	},
+	{
+		"symbol": "BA",
+		"name": "Boeing Company",
+		"last": 194.61,
+		"change": -1.89,
+		"changePercentage": -0.96,
+		"high": 195.85,
+		"low": 191.49,
+		"volume": 7869400
+	},
+	{
+		"symbol": "BAC",
+		"name": "Bank of America Corp",
+		"last": 53.2,
+		"change": -0.09,
+		"changePercentage": -0.17,
+		"high": 53.58,
+		"low": 52.71,
+		"volume": 40537600
+	},
+	{
+		"symbol": "BALL",
+		"name": "Ball Corporation",
+		"last": 48.98,
+		"change": 0.6,
+		"changePercentage": 1.24,
+		"high": 49.13,
+		"low": 48.37,
+		"volume": 3501700
+	},
+	{
+		"symbol": "BAX",
+		"name": "Baxter International Inc",
+		"last": 18.0,
+		"change": 0.02,
+		"changePercentage": 0.11,
+		"high": 18.12,
+		"low": 17.78,
+		"volume": 7414100
+	},
+	{
+		"symbol": "BBY",
+		"name": "Best Buy Company",
+		"last": 79.03,
+		"change": 0.36,
+		"changePercentage": 0.46,
+		"high": 79.37,
+		"low": 77.48,
+		"volume": 3130800
+	},
+	{
+		"symbol": "BDX",
+		"name": "Becton Dickinson and Company",
+		"last": 177.84,
+		"change": 0.45,
+		"changePercentage": 0.25,
+		"high": 179.06,
+		"low": 174.72,
+		"volume": 3068500
+	},
+	{
+		"symbol": "BEN",
+		"name": "Franklin Resources",
+		"last": 22.23,
+		"change": -1.02,
+		"changePercentage": -4.39,
+		"high": 23.35,
+		"low": 21.64,
+		"volume": 8810100
+	},
+	{
+		"symbol": "BF.B",
+		"name": "Brown Forman Inc Cl B",
+		"last": 26.6,
+		"change": 0.07,
+		"changePercentage": 0.26,
+		"high": 27.26,
+		"low": 26.48,
+		"volume": 4775100
+	},
+	{
+		"symbol": "BG",
+		"name": "Bunge Ltd",
+		"last": 94.72,
+		"change": -0.05,
+		"changePercentage": -0.05,
+		"high": 95.23,
+		"low": 93.54,
+		"volume": 1486800
+	},
+	{
+		"symbol": "BIIB",
+		"name": "Biogen Inc",
+		"last": 155.51,
+		"change": -1.23,
+		"changePercentage": -0.78,
+		"high": 156.7,
+		"low": 151.83,
+		"volume": 1552000
+	},
+	{
+		"symbol": "BK",
+		"name": "Bank of New York Mellon Corp",
+		"last": 109.64,
+		"change": 1.22,
+		"changePercentage": 1.13,
+		"high": 109.67,
+		"low": 107.36,
+		"volume": 3293000
+	},
+	{
+		"symbol": "BKNG",
+		"name": "Booking Holdings Inc",
+		"last": 4940.0,
+		"change": 40.95,
+		"changePercentage": 0.84,
+		"high": 5014.42,
+		"low": 4905.05,
+		"volume": 271600
+	},
+	{
+		"symbol": "BKR",
+		"name": "Baker Hughes Company",
+		"last": 47.87,
+		"change": 0.58,
+		"changePercentage": 1.23,
+		"high": 47.93,
+		"low": 46.71,
+		"volume": 5076300
+	},
+	{
+		"symbol": "BLDR",
+		"name": "Builders Firstsource",
+		"last": 109.42,
+		"change": 0.38,
+		"changePercentage": 0.35,
+		"high": 111.61,
+		"low": 107.48,
+		"volume": 2823900
+	},
+	{
+		"symbol": "BLK",
+		"name": "Blackrock Inc",
+		"last": 1082.2,
+		"change": 12.76,
+		"changePercentage": 1.19,
+		"high": 1083.39,
+		"low": 1057.77,
+		"volume": 470300
+	},
+	{
+		"symbol": "BMY",
+		"name": "Bristol-Myers Squibb Company",
+		"last": 46.69,
+		"change": 0.06,
+		"changePercentage": 0.13,
+		"high": 46.99,
+		"low": 46.32,
+		"volume": 9007500
+	},
+	{
+		"symbol": "BR",
+		"name": "Broadridge Financial Solutions Llc",
+		"last": 221.72,
+		"change": 4.23,
+		"changePercentage": 1.94,
+		"high": 222.13,
+		"low": 217.16,
+		"volume": 646700
+	},
+	{
+		"symbol": "BRK.B",
+		"name": "Berkshire Hathaway Cl B",
+		"last": 499.06,
+		"change": 5.91,
+		"changePercentage": 1.2,
+		"high": 500.16,
+		"low": 493.35,
+		"volume": 6377700
+	},
+	{
+		"symbol": "BRO",
+		"name": "Brown & Brown",
+		"last": 78.54,
+		"change": 2.12,
+		"changePercentage": 2.77,
+		"high": 79.0,
+		"low": 76.58,
+		"volume": 2560900
+	},
+	{
+		"symbol": "BSX",
+		"name": "Boston Scientific Corp",
+		"last": 100.02,
+		"change": 0.97,
+		"changePercentage": 0.98,
+		"high": 100.31,
+		"low": 98.71,
+		"volume": 7046400
+	},
+	{
+		"symbol": "BX",
+		"name": "Blackstone Inc",
+		"last": 145.94,
+		"change": 2.51,
+		"changePercentage": 1.75,
+		"high": 146.24,
+		"low": 141.61,
+		"volume": 3614000
+	},
+	{
+		"symbol": "BXP",
+		"name": "Bxp Inc",
+		"last": 72.36,
+		"change": 2.26,
+		"changePercentage": 3.22,
+		"high": 72.54,
+		"low": 70.1,
+		"volume": 1903400
+	},
+	{
+		"symbol": "C",
+		"name": "Citigroup Inc",
+		"last": 100.79,
+		"change": -0.06,
+		"changePercentage": -0.06,
+		"high": 100.83,
+		"low": 97.37,
+		"volume": 14887400
+	},
+	{
+		"symbol": "CAG",
+		"name": "Conagra Brands Inc",
+		"last": 17.14,
+		"change": 0.44,
+		"changePercentage": 2.63,
+		"high": 17.29,
+		"low": 16.69,
+		"volume": 10833000
+	},
+	{
+		"symbol": "CAH",
+		"name": "Cardinal Health",
+		"last": 203.67,
+		"change": 5.68,
+		"changePercentage": 2.87,
+		"high": 203.67,
+		"low": 197.19,
+		"volume": 5013900
+	},
+	{
+		"symbol": "CARR",
+		"name": "Carrier Global Corp",
+		"last": 57.51,
+		"change": 0.94,
+		"changePercentage": 1.66,
+		"high": 57.52,
+		"low": 55.59,
+		"volume": 5669400
+	},
+	{
+		"symbol": "CAT",
+		"name": "Caterpillar Inc",
+		"last": 563.1,
+		"change": -6.68,
+		"changePercentage": -1.17,
+		"high": 565.58,
+		"low": 550.33,
+		"volume": 2320000
+	},
+	{
+		"symbol": "CB",
+		"name": "Chubb Ltd",
+		"last": 287.55,
+		"change": 4.5,
+		"changePercentage": 1.59,
+		"high": 287.64,
+		"low": 282.99,
+		"volume": 1303500
+	},
+	{
+		"symbol": "CBOE",
+		"name": "CBOE Global Markets Inc",
+		"last": 256.62,
+		"change": 3.98,
+		"changePercentage": 1.58,
+		"high": 257.41,
+		"low": 252.82,
+		"volume": 978500
+	},
+	{
+		"symbol": "CBRE",
+		"name": "CBRE Group Inc",
+		"last": 152.65,
+		"change": 2.66,
+		"changePercentage": 1.77,
+		"high": 153.02,
+		"low": 149.28,
+		"volume": 1676600
+	},
+	{
+		"symbol": "CCI",
+		"name": "Crown Castle Inc",
+		"last": 89.54,
+		"change": 1.73,
+		"changePercentage": 1.97,
+		"high": 89.6,
+		"low": 87.71,
+		"volume": 3568100
+	},
+	{
+		"symbol": "CCL",
+		"name": "Carnival Corp",
+		"last": 26.73,
+		"change": 0.36,
+		"changePercentage": 1.37,
+		"high": 27.13,
+		"low": 26.01,
+		"volume": 18927700
+	},
+	{
+		"symbol": "CDNS",
+		"name": "Cadence Design Sys",
+		"last": 325.05,
+		"change": 0.6,
+		"changePercentage": 0.18,
+		"high": 326.61,
+		"low": 319.19,
+		"volume": 1612700
+	},
+	{
+		"symbol": "CDW",
+		"name": "CDW Corp",
+		"last": 142.45,
+		"change": 0.89,
+		"changePercentage": 0.63,
+		"high": 144.07,
+		"low": 139.37,
+		"volume": 1560900
+	},
+	{
+		"symbol": "CEG",
+		"name": "Constellation Energy Corp",
+		"last": 358.39,
+		"change": 7.09,
+		"changePercentage": 2.02,
+		"high": 359.1,
+		"low": 332.12,
+		"volume": 5775300
+	},
+	{
+		"symbol": "CF",
+		"name": "Cf Industries Holdings",
+		"last": 82.03,
+		"change": 0.58,
+		"changePercentage": 0.71,
+		"high": 82.08,
+		"low": 80.09,
+		"volume": 2892000
+	},
+	{
+		"symbol": "CFG",
+		"name": "Citizens Financial Group Inc/Ri",
+		"last": 51.7,
+		"change": 0.8,
+		"changePercentage": 1.57,
+		"high": 51.71,
+		"low": 50.34,
+		"volume": 3539500
+	},
+	{
+		"symbol": "CHD",
+		"name": "Church & Dwight Company",
+		"last": 86.86,
+		"change": 0.65,
+		"changePercentage": 0.75,
+		"high": 87.46,
+		"low": 86.1,
+		"volume": 2504900
+	},
+	{
+		"symbol": "CHRW",
+		"name": "C.H. Robinson Ww",
+		"last": 149.44,
+		"change": 1.21,
+		"changePercentage": 0.82,
+		"high": 152.26,
+		"low": 146.96,
+		"volume": 1553700
+	},
+	{
+		"symbol": "CHTR",
+		"name": "Charter Communications Inc",
+		"last": 219.86,
+		"change": 2.0,
+		"changePercentage": 0.92,
+		"high": 220.17,
+		"low": 213.5,
+		"volume": 1405600
+	},
+	{
+		"symbol": "CI",
+		"name": "The Cigna Group",
+		"last": 264.58,
+		"change": 8.2,
+		"changePercentage": 3.2,
+		"high": 265.88,
+		"low": 255.53,
+		"volume": 3025500
+	},
+	{
+		"symbol": "CINF",
+		"name": "Cincinnati Financial",
+		"last": 164.64,
+		"change": 3.26,
+		"changePercentage": 2.02,
+		"high": 164.77,
+		"low": 161.58,
+		"volume": 694800
+	},
+	{
+		"symbol": "CL",
+		"name": "Colgate-Palmolive Company",
+		"last": 78.76,
+		"change": 1.49,
+		"changePercentage": 1.93,
+		"high": 78.99,
+		"low": 77.09,
+		"volume": 8566200
+	},
+	{
+		"symbol": "CLX",
+		"name": "Clorox Company",
+		"last": 107.36,
+		"change": 1.08,
+		"changePercentage": 1.02,
+		"high": 108.0,
+		"low": 106.14,
+		"volume": 1843600
+	},
+	{
+		"symbol": "CMCSA",
+		"name": "Comcast Corp A",
+		"last": 27.35,
+		"change": 0.04,
+		"changePercentage": 0.15,
+		"high": 27.77,
+		"low": 27.01,
+		"volume": 36519301
+	},
+	{
+		"symbol": "CME",
+		"name": "CME Group Inc",
+		"last": 276.5,
+		"change": 5.08,
+		"changePercentage": 1.87,
+		"high": 279.02,
+		"low": 272.01,
+		"volume": 2158700
+	},
+	{
+		"symbol": "CMG",
+		"name": "Chipotle Mexican Grill",
+		"last": 30.59,
+		"change": 0.03,
+		"changePercentage": 0.1,
+		"high": 30.71,
+		"low": 30.02,
+		"volume": 33734900
+	},
+	{
+		"symbol": "CMI",
+		"name": "Cummins Inc",
+		"last": 473.34,
+		"change": 10.54,
+		"changePercentage": 2.28,
+		"high": 479.7,
+		"low": 459.42,
+		"volume": 1373000
+	},
+	{
+		"symbol": "CMS",
+		"name": "Cms Energy Corp",
+		"last": 73.23,
+		"change": 1.42,
+		"changePercentage": 1.98,
+		"high": 73.23,
+		"low": 71.87,
+		"volume": 3008300
+	},
+	{
+		"symbol": "CNC",
+		"name": "Centene Corp",
+		"last": 37.56,
+		"change": 0.46,
+		"changePercentage": 1.24,
+		"high": 37.58,
+		"low": 36.37,
+		"volume": 10510600
+	},
+	{
+		"symbol": "CNP",
+		"name": "Centerpoint Energy Inc",
+		"last": 39.41,
+		"change": 0.42,
+		"changePercentage": 1.08,
+		"high": 39.46,
+		"low": 39.03,
+		"volume": 4178400
+	},
+	{
+		"symbol": "COF",
+		"name": "Capital One Financial Corp",
+		"last": 217.82,
+		"change": 0.94,
+		"changePercentage": 0.43,
+		"high": 219.06,
+		"low": 213.3,
+		"volume": 3946100
+	},
+	{
+		"symbol": "COIN",
+		"name": "Coinbase Global Inc Cl A",
+		"last": 309.14,
+		"change": 13.92,
+		"changePercentage": 4.72,
+		"high": 310.93,
+		"low": 283.65,
+		"volume": 11984199
+	},
+	{
+		"symbol": "COO",
+		"name": "Cooper Companies",
+		"last": 70.1,
+		"change": 1.1,
+		"changePercentage": 1.59,
+		"high": 70.23,
+		"low": 68.13,
+		"volume": 1354000
+	},
+	{
+		"symbol": "COP",
+		"name": "Conocophillips",
+		"last": 86.83,
+		"change": 1.17,
+		"changePercentage": 1.37,
+		"high": 87.38,
+		"low": 85.59,
+		"volume": 7567600
+	},
+	{
+		"symbol": "COR",
+		"name": "Cencora Inc",
+		"last": 360.7,
+		"change": 0.46,
+		"changePercentage": 0.13,
+		"high": 364.36,
+		"low": 358.29,
+		"volume": 1302500
+	},
+	{
+		"symbol": "COST",
+		"name": "Costco Wholesale",
+		"last": 922.74,
+		"change": -0.84,
+		"changePercentage": -0.09,
+		"high": 937.0,
+		"low": 920.79,
+		"volume": 2584000
+	},
+	{
+		"symbol": "CPAY",
+		"name": "Corpay Inc",
+		"last": 276.53,
+		"change": -1.47,
+		"changePercentage": -0.53,
+		"high": 280.87,
+		"low": 271.45,
+		"volume": 643500
+	},
+	{
+		"symbol": "CPB",
+		"name": "The Campbell's Company",
+		"last": 30.74,
+		"change": 0.68,
+		"changePercentage": 2.26,
+		"high": 30.89,
+		"low": 30.03,
+		"volume": 6029900
+	},
+	{
+		"symbol": "CPRT",
+		"name": "Copart Inc",
+		"last": 40.51,
+		"change": 0.53,
+		"changePercentage": 1.33,
+		"high": 40.54,
+		"low": 39.74,
+		"volume": 7482000
+	},
+	{
+		"symbol": "CPT",
+		"name": "Camden Property Trust",
+		"last": 101.78,
+		"change": 2.49,
+		"changePercentage": 2.51,
+		"high": 102.33,
+		"low": 99.44,
+		"volume": 2274600
+	},
+	{
+		"symbol": "CRL",
+		"name": "Charles River Laboratories Intl",
+		"last": 168.05,
+		"change": -2.83,
+		"changePercentage": -1.66,
+		"high": 171.5,
+		"low": 165.74,
+		"volume": 900900
+	},
+	{
+		"symbol": "CRM",
+		"name": "Salesforce Inc",
+		"last": 239.88,
+		"change": 0.61,
+		"changePercentage": 0.25,
+		"high": 240.97,
+		"low": 235.79,
+		"volume": 5741400
+	},
+	{
+		"symbol": "CRWD",
+		"name": "Crowdstrike Holdings Inc",
+		"last": 539.81,
+		"change": 7.29,
+		"changePercentage": 1.37,
+		"high": 542.26,
+		"low": 519.1,
+		"volume": 2427100
+	},
+	{
+		"symbol": "CSCO",
+		"name": "Cisco Systems Inc",
+		"last": 71.07,
+		"change": 0.03,
+		"changePercentage": 0.04,
+		"high": 71.58,
+		"low": 70.54,
+		"volume": 16913699
+	},
+	{
+		"symbol": "CSGP",
+		"name": "Costar Group Inc",
+		"last": 67.52,
+		"change": 0.16,
+		"changePercentage": 0.24,
+		"high": 68.34,
+		"low": 66.59,
+		"volume": 4196300
+	},
+	{
+		"symbol": "CSX",
+		"name": "CSX Corp",
+		"last": 35.34,
+		"change": 0.18,
+		"changePercentage": 0.51,
+		"high": 35.35,
+		"low": 34.92,
+		"volume": 11267200
+	},
+	{
+		"symbol": "CTAS",
+		"name": "Cintas Corp",
+		"last": 185.07,
+		"change": 0.18,
+		"changePercentage": 0.1,
+		"high": 186.76,
+		"low": 184.19,
+		"volume": 2526700
+	},
+	{
+		"symbol": "CTRA",
+		"name": "Coterra Energy Inc",
+		"last": 26.57,
+		"change": 0.2,
+		"changePercentage": 0.76,
+		"high": 26.79,
+		"low": 26.17,
+		"volume": 9296900
+	},
+	{
+		"symbol": "CTSH",
+		"name": "Cognizant Tech Sol",
+		"last": 73.2,
+		"change": 0.37,
+		"changePercentage": 0.51,
+		"high": 73.64,
+		"low": 72.62,
+		"volume": 5345000
+	},
+	{
+		"symbol": "CTVA",
+		"name": "Corteva Inc",
+		"last": 64.15,
+		"change": 1.0,
+		"changePercentage": 1.58,
+		"high": 64.18,
+		"low": 62.66,
+		"volume": 3686900
+	},
+	{
+		"symbol": "CVS",
+		"name": "CVS Corp",
+		"last": 78.99,
+		"change": 0.33,
+		"changePercentage": 0.42,
+		"high": 79.44,
+		"low": 78.29,
+		"volume": 4306200
+	},
+	{
+		"symbol": "CVX",
+		"name": "Chevron Corp",
+		"last": 155.02,
+		"change": 2.08,
+		"changePercentage": 1.36,
+		"high": 156.17,
+		"low": 153.43,
+		"volume": 9835900
+	},
+	{
+		"symbol": "D",
+		"name": "Dominion Energy Inc",
+		"last": 61.58,
+		"change": 1.08,
+		"changePercentage": 1.79,
+		"high": 61.61,
+		"low": 60.49,
+		"volume": 5018100
+	},
+	{
+		"symbol": "DAL",
+		"name": "Delta Air Lines Inc",
+		"last": 58.88,
+		"change": 1.07,
+		"changePercentage": 1.85,
+		"high": 60.17,
+		"low": 56.23,
+		"volume": 8748700
+	},
+	{
+		"symbol": "DASH",
+		"name": "Doordash Inc Cl A",
+		"last": 204.31,
+		"change": 7.85,
+		"changePercentage": 4.0,
+		"high": 206.68,
+		"low": 195.56,
+		"volume": 9524100
+	},
+	{
+		"symbol": "DAY",
+		"name": "Dayforce Inc",
+		"last": 68.35,
+		"change": -0.17,
+		"changePercentage": -0.25,
+		"high": 68.6,
+		"low": 68.34,
+		"volume": 3595300
+	},
+	{
+		"symbol": "DD",
+		"name": "Dupont Denemours Inc",
+		"last": 39.8,
+		"change": 0.65,
+		"changePercentage": 1.66,
+		"high": 39.95,
+		"low": 38.51,
+		"volume": 7328700
+	},
+	{
+		"symbol": "DDOG",
+		"name": "Datadog Inc Cl A",
+		"last": 191.24,
+		"change": 0.42,
+		"changePercentage": 0.22,
+		"high": 191.32,
+		"low": 180.77,
+		"volume": 9288199
+	},
+	{
+		"symbol": "DE",
+		"name": "Deere & Company",
+		"last": 467.79,
+		"change": -7.59,
+		"changePercentage": -1.6,
+		"high": 471.25,
+		"low": 457.65,
+		"volume": 1912500
+	},
+	{
+		"symbol": "DECK",
+		"name": "Deckers Outdoor Corp",
+		"last": 81.77,
+		"change": 1.96,
+		"changePercentage": 2.46,
+		"high": 82.25,
+		"low": 79.07,
+		"volume": 3428900
+	},
+	{
+		"symbol": "DELL",
+		"name": "Dell Technologies Inc",
+		"last": 146.7,
+		"change": -2.48,
+		"changePercentage": -1.66,
+		"high": 147.99,
+		"low": 143.08,
+		"volume": 5780800
+	},
+	{
+		"symbol": "DG",
+		"name": "Dollar General Corp",
+		"last": 99.22,
+		"change": 3.28,
+		"changePercentage": 3.42,
+		"high": 99.36,
+		"low": 95.11,
+		"volume": 3744200
+	},
+	{
+		"symbol": "DGX",
+		"name": "Quest Diagnostics Inc",
+		"last": 179.5,
+		"change": 2.99,
+		"changePercentage": 1.69,
+		"high": 180.59,
+		"low": 176.09,
+		"volume": 1020600
+	},
+	{
+		"symbol": "DHI",
+		"name": "D.R. Horton",
+		"last": 144.77,
+		"change": -0.45,
+		"changePercentage": -0.31,
+		"high": 145.74,
+		"low": 142.3,
+		"volume": 2942200
+	},
+	{
+		"symbol": "DHR",
+		"name": "Danaher Corp",
+		"last": 209.94,
+		"change": -0.73,
+		"changePercentage": -0.35,
+		"high": 211.26,
+		"low": 207.75,
+		"volume": 3028000
+	},
+	{
+		"symbol": "DIS",
+		"name": "Walt Disney Company",
+		"last": 110.74,
+		"change": 0.25,
+		"changePercentage": 0.23,
+		"high": 111.43,
+		"low": 110.04,
+		"volume": 8782100
+	},
+	{
+		"symbol": "DLR",
+		"name": "Digital Realty Trust",
+		"last": 169.89,
+		"change": 1.54,
+		"changePercentage": 0.91,
+		"high": 170.09,
+		"low": 166.01,
+		"volume": 1211900
+	},
+	{
+		"symbol": "DLTR",
+		"name": "Dollar Tree Inc",
+		"last": 105.74,
+		"change": 3.77,
+		"changePercentage": 3.7,
+		"high": 105.98,
+		"low": 101.42,
+		"volume": 2998300
+	},
+	{
+		"symbol": "DOC",
+		"name": "Healthpeak Properties Inc",
+		"last": 17.82,
+		"change": 0.26,
+		"changePercentage": 1.48,
+		"high": 17.86,
+		"low": 17.61,
+		"volume": 8175800
+	},
+	{
+		"symbol": "DOV",
+		"name": "Dover Corp",
+		"last": 180.33,
+		"change": 1.76,
+		"changePercentage": 0.99,
+		"high": 180.68,
+		"low": 176.91,
+		"volume": 869100
+	},
+	{
+		"symbol": "DOW",
+		"name": "Dow Inc",
+		"last": 22.29,
+		"change": 0.07,
+		"changePercentage": 0.32,
+		"high": 22.48,
+		"low": 21.88,
+		"volume": 13745900
+	},
+	{
+		"symbol": "DPZ",
+		"name": "Domino's Pizza Inc",
+		"last": 410.18,
+		"change": 8.72,
+		"changePercentage": 2.17,
+		"high": 411.08,
+		"low": 401.0,
+		"volume": 486400
+	},
+	{
+		"symbol": "DRI",
+		"name": "Darden Restaurants",
+		"last": 178.06,
+		"change": 0.55,
+		"changePercentage": 0.31,
+		"high": 180.12,
+		"low": 176.86,
+		"volume": 1224400
+	},
+	{
+		"symbol": "DTE",
+		"name": "Dte Energy Company",
+		"last": 136.75,
+		"change": 2.66,
+		"changePercentage": 1.98,
+		"high": 136.76,
+		"low": 134.41,
+		"volume": 1704500
+	},
+	{
+		"symbol": "DUK",
+		"name": "Duke Energy Corp",
+		"last": 123.66,
+		"change": -0.34,
+		"changePercentage": -0.27,
+		"high": 125.72,
+		"low": 122.41,
+		"volume": 5457000
+	},
+	{
+		"symbol": "DVA",
+		"name": "Davita Healthcare Partners Inc",
+		"last": 123.69,
+		"change": 2.16,
+		"changePercentage": 1.78,
+		"high": 123.79,
+		"low": 120.92,
+		"volume": 956200
+	},
+	{
+		"symbol": "DVN",
+		"name": "Devon Energy Corp",
+		"last": 33.7,
+		"change": 1.27,
+		"changePercentage": 3.92,
+		"high": 33.73,
+		"low": 32.49,
+		"volume": 9921000
+	},
+	{
+		"symbol": "DXCM",
+		"name": "Dexcom Inc",
+		"last": 55.0,
+		"change": -3.02,
+		"changePercentage": -5.21,
+		"high": 58.25,
+		"low": 54.11,
+		"volume": 10943900
+	},
+	{
+		"symbol": "EA",
+		"name": "Electronic Arts Inc",
+		"last": 200.6,
+		"change": 0.22,
+		"changePercentage": 0.11,
+		"high": 200.71,
+		"low": 200.37,
+		"volume": 1755900
+	},
+	{
+		"symbol": "EBAY",
+		"name": "Ebay Inc",
+		"last": 83.8,
+		"change": 2.95,
+		"changePercentage": 3.65,
+		"high": 83.9,
+		"low": 80.78,
+		"volume": 5572800
+	},
+	{
+		"symbol": "ECL",
+		"name": "Ecolab Inc",
+		"last": 256.13,
+		"change": 3.07,
+		"changePercentage": 1.21,
+		"high": 256.38,
+		"low": 252.17,
+		"volume": 1728300
+	},
+	{
+		"symbol": "ED",
+		"name": "Consolidated Edison Company",
+		"last": 98.52,
+		"change": 1.53,
+		"changePercentage": 1.58,
+		"high": 99.88,
+		"low": 97.25,
+		"volume": 2924400
+	},
+	{
+		"symbol": "EFX",
+		"name": "Equifax Inc",
+		"last": 207.59,
+		"change": 3.4,
+		"changePercentage": 1.67,
+		"high": 207.69,
+		"low": 202.0,
+		"volume": 1496200
+	},
+	{
+		"symbol": "EG",
+		"name": "Everest Re Group",
+		"last": 326.14,
+		"change": 6.53,
+		"changePercentage": 2.04,
+		"high": 328.72,
+		"low": 320.53,
+		"volume": 598000
+	},
+	{
+		"symbol": "EIX",
+		"name": "Edison International",
+		"last": 57.04,
+		"change": 0.48,
+		"changePercentage": 0.85,
+		"high": 57.11,
+		"low": 56.21,
+		"volume": 2242800
+	},
+	{
+		"symbol": "EL",
+		"name": "Estee Lauder Companies",
+		"last": 87.75,
+		"change": -0.03,
+		"changePercentage": -0.03,
+		"high": 88.08,
+		"low": 84.61,
+		"volume": 5083200
+	},
+	{
+		"symbol": "ELV",
+		"name": "Elevance Health Inc",
+		"last": 317.78,
+		"change": 3.34,
+		"changePercentage": 1.06,
+		"high": 317.83,
+		"low": 310.71,
+		"volume": 1151400
+	},
+	{
+		"symbol": "EME",
+		"name": "Emcor Group",
+		"last": 649.34,
+		"change": -4.41,
+		"changePercentage": -0.67,
+		"high": 655.63,
+		"low": 636.11,
+		"volume": 578100
+	},
+	{
+		"symbol": "EMN",
+		"name": "Eastman Chemical Company",
+		"last": 61.25,
+		"change": 1.61,
+		"changePercentage": 2.7,
+		"high": 61.45,
+		"low": 59.53,
+		"volume": 2281900
+	},
+	{
+		"symbol": "EMR",
+		"name": "Emerson Electric Company",
+		"last": 129.49,
+		"change": -2.0,
+		"changePercentage": -1.52,
+		"high": 131.33,
+		"low": 128.48,
+		"volume": 4631000
+	},
+	{
+		"symbol": "EOG",
+		"name": "Eog Resources",
+		"last": 105.41,
+		"change": 0.41,
+		"changePercentage": 0.39,
+		"high": 106.63,
+		"low": 103.5,
+		"volume": 7053600
+	},
+	{
+		"symbol": "EPAM",
+		"name": "Epam Systems Inc",
+		"last": 175.3,
+		"change": 7.3,
+		"changePercentage": 4.35,
+		"high": 175.76,
+		"low": 165.94,
+		"volume": 1539800
+	},
+	{
+		"symbol": "EQIX",
+		"name": "Equinix Inc",
+		"last": 824.75,
+		"change": 5.42,
+		"changePercentage": 0.66,
+		"high": 825.25,
+		"low": 812.64,
+		"volume": 306800
+	},
+	{
+		"symbol": "EQR",
+		"name": "Equity Residential",
+		"last": 59.71,
+		"change": 1.01,
+		"changePercentage": 1.72,
+		"high": 59.79,
+		"low": 58.89,
+		"volume": 2352000
+	},
+	{
+		"symbol": "EQT",
+		"name": "Eqt Corp",
+		"last": 57.97,
+		"change": 1.69,
+		"changePercentage": 3.0,
+		"high": 57.99,
+		"low": 55.76,
+		"volume": 5783700
+	},
+	{
+		"symbol": "ERIE",
+		"name": "Erie Indemnity Company",
+		"last": 284.84,
+		"change": 3.26,
+		"changePercentage": 1.16,
+		"high": 285.71,
+		"low": 282.4,
+		"volume": 152700
+	},
+	{
+		"symbol": "ES",
+		"name": "Eversource Energy",
+		"last": 73.04,
+		"change": 1.5,
+		"changePercentage": 2.1,
+		"high": 73.15,
+		"low": 71.77,
+		"volume": 2701700
+	},
+	{
+		"symbol": "ESS",
+		"name": "Essex Property Trust",
+		"last": 260.42,
+		"change": 4.16,
+		"changePercentage": 1.62,
+		"high": 260.42,
+		"low": 256.15,
+		"volume": 644700
+	},
+	{
+		"symbol": "ETN",
+		"name": "Eaton Corp",
+		"last": 373.77,
+		"change": -3.63,
+		"changePercentage": -0.96,
+		"high": 376.07,
+		"low": 364.2,
+		"volume": 2604800
+	},
+	{
+		"symbol": "ETR",
+		"name": "Entergy Corp",
+		"last": 97.19,
+		"change": 1.49,
+		"changePercentage": 1.56,
+		"high": 97.19,
+		"low": 95.17,
+		"volume": 2658600
+	},
+	{
+		"symbol": "EVRG",
+		"name": "Evergy Inc",
+		"last": 75.59,
+		"change": 0.03,
+		"changePercentage": 0.04,
+		"high": 76.56,
+		"low": 74.92,
+		"volume": 2856700
+	},
+	{
+		"symbol": "EW",
+		"name": "Edwards Lifesciences Corp",
+		"last": 83.39,
+		"change": 0.95,
+		"changePercentage": 1.15,
+		"high": 83.82,
+		"low": 82.26,
+		"volume": 3160400
+	},
+	{
+		"symbol": "EXC",
+		"name": "Exelon Corp",
+		"last": 46.21,
+		"change": 0.5,
+		"changePercentage": 1.09,
+		"high": 46.8,
+		"low": 45.82,
+		"volume": 7715800
+	},
+	{
+		"symbol": "EXE",
+		"name": "Expand Energy Corporation",
+		"last": 112.45,
+		"change": 1.83,
+		"changePercentage": 1.65,
+		"high": 112.92,
+		"low": 109.0,
+		"volume": 2310400
+	},
+	{
+		"symbol": "EXPD",
+		"name": "Expeditors Intl",
+		"last": 137.43,
+		"change": 2.89,
+		"changePercentage": 2.15,
+		"high": 137.48,
+		"low": 134.16,
+		"volume": 1673000
+	},
+	{
+		"symbol": "EXPE",
+		"name": "Expedia Group Inc",
+		"last": 258.25,
+		"change": 38.55,
+		"changePercentage": 17.55,
+		"high": 264.2,
+		"low": 245.77,
+		"volume": 7653600
+	},
+	{
+		"symbol": "EXR",
+		"name": "Extra Space Storage Inc",
+		"last": 133.18,
+		"change": 2.12,
+		"changePercentage": 1.62,
+		"high": 133.33,
+		"low": 130.56,
+		"volume": 866800
+	},
+	{
+		"symbol": "F",
+		"name": "Ford Motor Company",
+		"last": 13.21,
+		"change": 0.24,
+		"changePercentage": 1.85,
+		"high": 13.24,
+		"low": 12.95,
+		"volume": 80011300
+	},
+	{
+		"symbol": "FANG",
+		"name": "Diamondback Energy",
+		"last": 143.65,
+		"change": 2.88,
+		"changePercentage": 2.05,
+		"high": 144.63,
+		"low": 139.65,
+		"volume": 1564800
+	},
+	{
+		"symbol": "FAST",
+		"name": "Fastenal Company",
+		"last": 40.85,
+		"change": 0.08,
+		"changePercentage": 0.2,
+		"high": 41.19,
+		"low": 40.45,
+		"volume": 5109500
+	},
+	{
+		"symbol": "FCX",
+		"name": "Freeport-Mcmoran Inc",
+		"last": 39.81,
+		"change": 1.16,
+		"changePercentage": 3.0,
+		"high": 40.01,
+		"low": 38.75,
+		"volume": 17305600
+	},
+	{
+		"symbol": "FDS",
+		"name": "Factset Research Systems Inc",
+		"last": 262.6,
+		"change": 8.98,
+		"changePercentage": 3.54,
+		"high": 264.78,
+		"low": 254.04,
+		"volume": 753600
+	},
+	{
+		"symbol": "FDX",
+		"name": "Fedex Corp",
+		"last": 262.09,
+		"change": 3.23,
+		"changePercentage": 1.25,
+		"high": 263.51,
+		"low": 258.27,
+		"volume": 1648800
+	},
+	{
+		"symbol": "FE",
+		"name": "Firstenergy Corp",
+		"last": 45.9,
+		"change": 0.48,
+		"changePercentage": 1.05,
+		"high": 45.96,
+		"low": 45.13,
+		"volume": 5516400
+	},
+	{
+		"symbol": "FFIV",
+		"name": "F5 Inc",
+		"last": 245.74,
+		"change": -2.35,
+		"changePercentage": -0.95,
+		"high": 246.53,
+		"low": 242.03,
+		"volume": 957100
+	},
+	{
+		"symbol": "FI",
+		"name": "Fiserv Inc",
+		"last": 63.7,
+		"change": 2.07,
+		"changePercentage": 3.36,
+		"high": 63.84,
+		"low": 60.95,
+		"volume": 14163900
+	},
+	{
+		"symbol": "FICO",
+		"name": "Fair Isaac and Company",
+		"last": 1740.0,
+		"change": 65.2,
+		"changePercentage": 3.89,
+		"high": 1740.63,
+		"low": 1646.5,
+		"volume": 252100
+	},
+	{
+		"symbol": "FIS",
+		"name": "Fidelity National Information Services",
+		"last": 64.78,
+		"change": 0.1,
+		"changePercentage": 0.15,
+		"high": 65.28,
+		"low": 63.86,
+		"volume": 3601300
+	},
+	{
+		"symbol": "FITB",
+		"name": "Fifth Third Bancorp",
+		"last": 42.87,
+		"change": 0.33,
+		"changePercentage": 0.78,
+		"high": 42.93,
+		"low": 42.08,
+		"volume": 9136000
+	},
+	{
+		"symbol": "FOX",
+		"name": "Fox Corp Cl B",
+		"last": 59.48,
+		"change": 0.14,
+		"changePercentage": 0.24,
+		"high": 59.98,
+		"low": 58.86,
+		"volume": 2228700
+	},
+	{
+		"symbol": "FOXA",
+		"name": "Fox Corp Cl A",
+		"last": 65.97,
+		"change": 0.26,
+		"changePercentage": 0.4,
+		"high": 66.64,
+		"low": 65.16,
+		"volume": 4029900
+	},
+	{
+		"symbol": "FRT",
+		"name": "Federal Realty Investment Trust",
+		"last": 97.34,
+		"change": 1.46,
+		"changePercentage": 1.52,
+		"high": 97.51,
+		"low": 96.15,
+		"volume": 917300
+	},
+	{
+		"symbol": "FSLR",
+		"name": "First Solar Inc",
+		"last": 267.64,
+		"change": -4.34,
+		"changePercentage": -1.6,
+		"high": 268.36,
+		"low": 254.51,
+		"volume": 2513300
+	},
+	{
+		"symbol": "FTNT",
+		"name": "Fortinet Inc",
+		"last": 81.79,
+		"change": 1.25,
+		"changePercentage": 1.55,
+		"high": 81.98,
+		"low": 79.55,
+		"volume": 7152600
+	},
+	{
+		"symbol": "FTV",
+		"name": "Fortive Corp",
+		"last": 51.23,
+		"change": 0.15,
+		"changePercentage": 0.29,
+		"high": 51.54,
+		"low": 49.99,
+		"volume": 3262900
+	},
+	{
+		"symbol": "GD",
+		"name": "General Dynamics Corp",
+		"last": 346.34,
+		"change": 6.04,
+		"changePercentage": 1.77,
+		"high": 347.15,
+		"low": 338.82,
+		"volume": 1209000
+	},
+	{
+		"symbol": "GDDY",
+		"name": "Godaddy Inc",
+		"last": 132.03,
+		"change": -0.92,
+		"changePercentage": -0.69,
+		"high": 133.31,
+		"low": 131.46,
+		"volume": 960600
+	},
+	{
+		"symbol": "GE",
+		"name": "GE Aerospace",
+		"last": 307.27,
+		"change": 2.0,
+		"changePercentage": 0.66,
+		"high": 308.92,
+		"low": 297.7,
+		"volume": 4766800
+	},
+	{
+		"symbol": "GEHC",
+		"name": "GE Healthcare Technologies Inc",
+		"last": 73.05,
+		"change": -1.12,
+		"changePercentage": -1.51,
+		"high": 74.14,
+		"low": 72.69,
+		"volume": 4401400
+	},
+	{
+		"symbol": "GEN",
+		"name": "Gen Digital Inc",
+		"last": 25.77,
+		"change": 0.32,
+		"changePercentage": 1.26,
+		"high": 25.86,
+		"low": 24.35,
+		"volume": 9249400
+	},
+	{
+		"symbol": "GEV",
+		"name": "GE Vernova Inc",
+		"last": 575.13,
+		"change": 24.96,
+		"changePercentage": 4.54,
+		"high": 576.89,
+		"low": 539.1,
+		"volume": 2823700
+	},
+	{
+		"symbol": "GILD",
+		"name": "Gilead Sciences Inc",
+		"last": 118.84,
+		"change": -4.56,
+		"changePercentage": -3.7,
+		"high": 124.0,
+		"low": 117.54,
+		"volume": 9065900
+	},
+	{
+		"symbol": "GIS",
+		"name": "General Mills",
+		"last": 46.88,
+		"change": 0.9,
+		"changePercentage": 1.96,
+		"high": 47.32,
+		"low": 45.94,
+		"volume": 6267900
+	},
+	{
+		"symbol": "GL",
+		"name": "Globe Life Inc",
+		"last": 132.24,
+		"change": 0.41,
+		"changePercentage": 0.31,
+		"high": 132.47,
+		"low": 130.5,
+		"volume": 592700
+	},
+	{
+		"symbol": "GLW",
+		"name": "Corning Inc",
+		"last": 85.48,
+		"change": -2.38,
+		"changePercentage": -2.71,
+		"high": 86.44,
+		"low": 83.33,
+		"volume": 7430000
+	},
+	{
+		"symbol": "GM",
+		"name": "General Motors Company",
+		"last": 70.75,
+		"change": 1.91,
+		"changePercentage": 2.77,
+		"high": 70.76,
+		"low": 68.58,
+		"volume": 8408500
+	},
+	{
+		"symbol": "GNRC",
+		"name": "Generac Holdings Inc",
+		"last": 155.29,
+		"change": 1.5,
+		"changePercentage": 0.98,
+		"high": 156.15,
+		"low": 149.86,
+		"volume": 1221900
+	},
+	{
+		"symbol": "GOOG",
+		"name": "Alphabet Cl C",
+		"last": 279.7,
+		"change": -5.64,
+		"changePercentage": -1.98,
+		"high": 284.5,
+		"low": 275.74,
+		"volume": 21991100
+	},
+	{
+		"symbol": "GOOGL",
+		"name": "Alphabet Cl A",
+		"last": 278.83,
+		"change": -5.92,
+		"changePercentage": -2.08,
+		"high": 283.78,
+		"low": 275.19,
+		"volume": 34479500
+	},
+	{
+		"symbol": "GPC",
+		"name": "Genuine Parts Company",
+		"last": 126.66,
+		"change": 1.63,
+		"changePercentage": 1.3,
+		"high": 127.2,
+		"low": 124.93,
+		"volume": 935500
+	},
+	{
+		"symbol": "GPN",
+		"name": "Global Payments Inc",
+		"last": 76.03,
+		"change": -0.34,
+		"changePercentage": -0.45,
+		"high": 76.86,
+		"low": 74.88,
+		"volume": 1958500
+	},
+	{
+		"symbol": "GRMN",
+		"name": "Garmin Ltd",
+		"last": 201.16,
+		"change": -2.82,
+		"changePercentage": -1.38,
+		"high": 203.75,
+		"low": 198.2,
+		"volume": 1138500
+	},
+	{
+		"symbol": "GS",
+		"name": "Goldman Sachs Group",
+		"last": 786.34,
+		"change": -1.24,
+		"changePercentage": -0.16,
+		"high": 787.06,
+		"low": 762.8,
+		"volume": 2098300
+	},
+	{
+		"symbol": "GWW",
+		"name": "W.W. Grainger",
+		"last": 955.04,
+		"change": 2.38,
+		"changePercentage": 0.25,
+		"high": 957.56,
+		"low": 945.54,
+		"volume": 188100
+	},
+	{
+		"symbol": "HAL",
+		"name": "Halliburton Company",
+		"last": 27.57,
+		"change": 0.24,
+		"changePercentage": 0.88,
+		"high": 27.69,
+		"low": 26.96,
+		"volume": 6677500
+	},
+	{
+		"symbol": "HAS",
+		"name": "Hasbro Inc",
+		"last": 76.57,
+		"change": -0.04,
+		"changePercentage": -0.05,
+		"high": 77.19,
+		"low": 76.09,
+		"volume": 1736400
+	},
+	{
+		"symbol": "HBAN",
+		"name": "Huntington Bancshares Inc",
+		"last": 15.69,
+		"change": 0.27,
+		"changePercentage": 1.75,
+		"high": 15.69,
+		"low": 15.31,
+		"volume": 27999000
+	},
+	{
+		"symbol": "HCA",
+		"name": "Hca Holdings Inc",
+		"last": 476.61,
+		"change": 5.25,
+		"changePercentage": 1.11,
+		"high": 478.88,
+		"low": 470.0,
+		"volume": 1186200
+	},
+	{
+		"symbol": "HD",
+		"name": "Home Depot",
+		"last": 371.11,
+		"change": 2.04,
+		"changePercentage": 0.55,
+		"high": 373.65,
+		"low": 367.57,
+		"volume": 2766300
+	},
+	{
+		"symbol": "HIG",
+		"name": "The Hartford Insurance Group Inc",
+		"last": 129.41,
+		"change": 1.47,
+		"changePercentage": 1.15,
+		"high": 129.63,
+		"low": 128.34,
+		"volume": 1074700
+	},
+	{
+		"symbol": "HII",
+		"name": "Huntington Ingalls Industries",
+		"last": 309.56,
+		"change": 4.13,
+		"changePercentage": 1.35,
+		"high": 310.8,
+		"low": 299.07,
+		"volume": 595400
+	},
+	{
+		"symbol": "HLT",
+		"name": "Hilton Inc",
+		"last": 273.32,
+		"change": 8.05,
+		"changePercentage": 3.03,
+		"high": 273.88,
+		"low": 265.45,
+		"volume": 1904000
+	},
+	{
+		"symbol": "HOLX",
+		"name": "Hologic Inc",
+		"last": 74.1,
+		"change": -0.05,
+		"changePercentage": -0.07,
+		"high": 74.19,
+		"low": 74.07,
+		"volume": 4739600
+	},
+	{
+		"symbol": "HON",
+		"name": "Honeywell International Inc",
+		"last": 194.07,
+		"change": -1.84,
+		"changePercentage": -0.94,
+		"high": 196.44,
+		"low": 193.7,
+		"volume": 3706900
+	},
+	{
+		"symbol": "HOOD",
+		"name": "Robinhood Markets Inc Cl A",
+		"last": 130.36,
+		"change": 3.28,
+		"changePercentage": 2.58,
+		"high": 132.2,
+		"low": 120.7,
+		"volume": 44897699
+	},
+	{
+		"symbol": "HPE",
+		"name": "Hewlett Packard Enterprise Comp",
+		"last": 23.45,
+		"change": 0.05,
+		"changePercentage": 0.21,
+		"high": 23.53,
+		"low": 22.79,
+		"volume": 21932600
+	},
+	{
+		"symbol": "HPQ",
+		"name": "HP Inc",
+		"last": 26.28,
+		"change": 0.11,
+		"changePercentage": 0.42,
+		"high": 26.33,
+		"low": 25.82,
+		"volume": 8710900
+	},
+	{
+		"symbol": "HRL",
+		"name": "Hormel Foods Corp",
+		"last": 22.03,
+		"change": 0.31,
+		"changePercentage": 1.43,
+		"high": 22.11,
+		"low": 21.68,
+		"volume": 6408000
+	},
+	{
+		"symbol": "HSIC",
+		"name": "Henry Schein Inc",
+		"last": 71.9,
+		"change": 1.84,
+		"changePercentage": 2.63,
+		"high": 71.9,
+		"low": 70.18,
+		"volume": 1455500
+	},
+	{
+		"symbol": "HST",
+		"name": "Host Marriott Financial Trust",
+		"last": 17.84,
+		"change": 0.52,
+		"changePercentage": 3.0,
+		"high": 18.14,
+		"low": 17.26,
+		"volume": 14670500
+	},
+	{
+		"symbol": "HSY",
+		"name": "Hershey Foods Corp",
+		"last": 170.61,
+		"change": 2.97,
+		"changePercentage": 1.77,
+		"high": 171.39,
+		"low": 168.0,
+		"volume": 1260900
+	},
+	{
+		"symbol": "HUBB",
+		"name": "Hubbell Inc B",
+		"last": 462.43,
+		"change": 0.96,
+		"changePercentage": 0.21,
+		"high": 463.7,
+		"low": 453.08,
+		"volume": 533800
+	},
+	{
+		"symbol": "HUM",
+		"name": "Humana Inc",
+		"last": 252.04,
+		"change": 0.93,
+		"changePercentage": 0.37,
+		"high": 256.23,
+		"low": 248.58,
+		"volume": 1472300
+	},
+	{
+		"symbol": "HWM",
+		"name": "Howmet Aerospace Inc",
+		"last": 206.66,
+		"change": 1.06,
+		"changePercentage": 0.52,
+		"high": 207.4,
+		"low": 201.32,
+		"volume": 2282700
+	},
+	{
+		"symbol": "IBKR",
+		"name": "Interactive Brokers",
+		"last": 70.54,
+		"change": 0.68,
+		"changePercentage": 0.97,
+		"high": 70.85,
+		"low": 67.6,
+		"volume": 4294800
+	},
+	{
+		"symbol": "IBM",
+		"name": "Intl Business Machines",
+		"last": 306.38,
+		"change": -6.04,
+		"changePercentage": -1.93,
+		"high": 310.0,
+		"low": 302.63,
+		"volume": 5070700
+	},
+	{
+		"symbol": "ICE",
+		"name": "Intercontinental Exchange",
+		"last": 149.0,
+		"change": 1.48,
+		"changePercentage": 1.0,
+		"high": 149.09,
+		"low": 146.95,
+		"volume": 3487000
+	},
+	{
+		"symbol": "IDXX",
+		"name": "Idexx Laboratories",
+		"last": 708.45,
+		"change": -5.29,
+		"changePercentage": -0.74,
+		"high": 716.71,
+		"low": 700.2,
+		"volume": 409900
+	},
+	{
+		"symbol": "IEX",
+		"name": "Idex Corp",
+		"last": 167.96,
+		"change": 1.14,
+		"changePercentage": 0.68,
+		"high": 169.05,
+		"low": 165.43,
+		"volume": 872700
+	},
+	{
+		"symbol": "IFF",
+		"name": "International Flavors & Fragrances",
+		"last": 62.0,
+		"change": -0.85,
+		"changePercentage": -1.35,
+		"high": 63.39,
+		"low": 61.79,
+		"volume": 3193400
+	},
+	{
+		"symbol": "INCY",
+		"name": "Incyte Corp",
+		"last": 105.98,
+		"change": 0.78,
+		"changePercentage": 0.74,
+		"high": 106.4,
+		"low": 103.81,
+		"volume": 2019900
+	},
+	{
+		"symbol": "INTC",
+		"name": "Intel Corp",
+		"last": 38.13,
+		"change": 0.89,
+		"changePercentage": 2.39,
+		"high": 38.27,
+		"low": 36.97,
+		"volume": 95521406
+	},
+	{
+		"symbol": "INTU",
+		"name": "Intuit Inc",
+		"last": 648.85,
+		"change": -4.79,
+		"changePercentage": -0.73,
+		"high": 654.61,
+		"low": 633.47,
+		"volume": 1697800
+	},
+	{
+		"symbol": "INVH",
+		"name": "Invitation Homes Inc",
+		"last": 28.01,
+		"change": 0.2,
+		"changePercentage": 0.72,
+		"high": 28.21,
+		"low": 27.85,
+		"volume": 5508100
+	},
+	{
+		"symbol": "IP",
+		"name": "International Paper Company",
+		"last": 38.1,
+		"change": 1.56,
+		"changePercentage": 4.27,
+		"high": 38.18,
+		"low": 36.37,
+		"volume": 6325000
+	},
+	{
+		"symbol": "IPG",
+		"name": "Interpublic Group of Companies",
+		"last": 25.46,
+		"change": 0.43,
+		"changePercentage": 1.72,
+		"high": 25.51,
+		"low": 24.97,
+		"volume": 7954000
+	},
+	{
+		"symbol": "IQV",
+		"name": "Iqvia Holdings Inc",
+		"last": 210.46,
+		"change": -0.4,
+		"changePercentage": -0.19,
+		"high": 211.33,
+		"low": 206.72,
+		"volume": 1160600
+	},
+	{
+		"symbol": "IR",
+		"name": "Ingersoll Rand Inc",
+		"last": 77.5,
+		"change": -0.18,
+		"changePercentage": -0.23,
+		"high": 77.89,
+		"low": 76.04,
+		"volume": 2576800
+	},
+	{
+		"symbol": "IRM",
+		"name": "Iron Mountain Inc",
+		"last": 104.12,
+		"change": 3.26,
+		"changePercentage": 3.23,
+		"high": 104.19,
+		"low": 99.66,
+		"volume": 2261900
+	},
+	{
+		"symbol": "ISRG",
+		"name": "Intuitive Surg Inc",
+		"last": 560.0,
+		"change": 12.22,
+		"changePercentage": 2.23,
+		"high": 562.65,
+		"low": 541.74,
+		"volume": 2712200
+	},
+	{
+		"symbol": "IT",
+		"name": "Gartner Inc",
+		"last": 230.57,
+		"change": 4.13,
+		"changePercentage": 1.82,
+		"high": 230.68,
+		"low": 222.73,
+		"volume": 771900
+	},
+	{
+		"symbol": "ITW",
+		"name": "Illinois Tool Works Inc",
+		"last": 245.49,
+		"change": 1.19,
+		"changePercentage": 0.49,
+		"high": 246.65,
+		"low": 243.27,
+		"volume": 1077100
+	},
+	{
+		"symbol": "IVZ",
+		"name": "Invesco Plc",
+		"last": 23.37,
+		"change": -0.02,
+		"changePercentage": -0.09,
+		"high": 23.39,
+		"low": 22.6,
+		"volume": 5394000
+	},
+	{
+		"symbol": "J",
+		"name": "Jacobs Engineering Group Inc",
+		"last": 153.36,
+		"change": -0.13,
+		"changePercentage": -0.08,
+		"high": 154.04,
+		"low": 151.86,
+		"volume": 769700
+	},
+	{
+		"symbol": "JBHT",
+		"name": "J B Hunt Transport",
+		"last": 170.96,
+		"change": 1.93,
+		"changePercentage": 1.14,
+		"high": 171.88,
+		"low": 168.05,
+		"volume": 947400
+	},
+	{
+		"symbol": "JBL",
+		"name": "Jabil Circuit",
+		"last": 213.71,
+		"change": -1.35,
+		"changePercentage": -0.63,
+		"high": 214.76,
+		"low": 205.93,
+		"volume": 1075700
+	},
+	{
+		"symbol": "JCI",
+		"name": "Johnson Controls Intl",
+		"last": 122.25,
+		"change": 0.0,
+		"changePercentage": 0.0,
+		"high": 122.55,
+		"low": 119.35,
+		"volume": 4901000
+	},
+	{
+		"symbol": "JKHY",
+		"name": "Jack Henry & Assoc",
+		"last": 160.8,
+		"change": -2.28,
+		"changePercentage": -1.4,
+		"high": 163.76,
+		"low": 159.81,
+		"volume": 1045500
+	},
+	{
+		"symbol": "JNJ",
+		"name": "Johnson & Johnson",
+		"last": 186.57,
+		"change": -0.4,
+		"changePercentage": -0.21,
+		"high": 188.35,
+		"low": 185.7,
+		"volume": 6959200
+	},
+	{
+		"symbol": "JPM",
+		"name": "JP Morgan Chase & Company",
+		"last": 314.21,
+		"change": 0.79,
+		"changePercentage": 0.25,
+		"high": 314.43,
+		"low": 307.64,
+		"volume": 7302300
+	},
+	{
+		"symbol": "K",
+		"name": "Kellanova",
+		"last": 83.34,
+		"change": 0.11,
+		"changePercentage": 0.13,
+		"high": 83.34,
+		"low": 83.21,
+		"volume": 2127700
+	},
+	{
+		"symbol": "KDP",
+		"name": "Keurig Dr Pepper Inc",
+		"last": 25.96,
+		"change": -0.4,
+		"changePercentage": -1.52,
+		"high": 26.67,
+		"low": 25.88,
+		"volume": 19727500
+	},
+	{
+		"symbol": "KEY",
+		"name": "Keycorp",
+		"last": 18.08,
+		"change": 0.49,
+		"changePercentage": 2.79,
+		"high": 18.08,
+		"low": 17.45,
+		"volume": 23789800
+	},
+	{
+		"symbol": "KEYS",
+		"name": "Keysight Technologies Inc",
+		"last": 180.87,
+		"change": -4.18,
+		"changePercentage": -2.26,
+		"high": 184.08,
+		"low": 177.21,
+		"volume": 1297400
+	},
+	{
+		"symbol": "KHC",
+		"name": "Kraft Heinz Company",
+		"last": 24.28,
+		"change": 0.56,
+		"changePercentage": 2.36,
+		"high": 24.3,
+		"low": 23.75,
+		"volume": 18904699
+	},
+	{
+		"symbol": "KIM",
+		"name": "Kimco Realty Corp",
+		"last": 20.54,
+		"change": 0.3,
+		"changePercentage": 1.48,
+		"high": 20.56,
+		"low": 20.27,
+		"volume": 4101900
+	},
+	{
+		"symbol": "KKR",
+		"name": "KKR & Company LP",
+		"last": 121.32,
+		"change": 2.01,
+		"changePercentage": 1.68,
+		"high": 122.13,
+		"low": 112.09,
+		"volume": 9118300
+	},
+	{
+		"symbol": "KLAC",
+		"name": "K L A-Tencor Corp",
+		"last": 1193.37,
+		"change": -13.03,
+		"changePercentage": -1.08,
+		"high": 1208.32,
+		"low": 1160.12,
+		"volume": 1142300
+	},
+	{
+		"symbol": "KMB",
+		"name": "Kimberly-Clark Corp",
+		"last": 103.85,
+		"change": 3.08,
+		"changePercentage": 3.06,
+		"high": 104.58,
+		"low": 100.5,
+		"volume": 10218700
+	},
+	{
+		"symbol": "KMI",
+		"name": "Kinder Morgan Inc",
+		"last": 26.55,
+		"change": 0.43,
+		"changePercentage": 1.65,
+		"high": 26.61,
+		"low": 26.04,
+		"volume": 11602500
+	},
+	{
+		"symbol": "KO",
+		"name": "Coca-Cola Company",
+		"last": 70.55,
+		"change": 1.49,
+		"changePercentage": 2.16,
+		"high": 70.87,
+		"low": 69.41,
+		"volume": 25108300
+	},
+	{
+		"symbol": "KR",
+		"name": "Kroger Company",
+		"last": 64.91,
+		"change": 1.48,
+		"changePercentage": 2.33,
+		"high": 65.08,
+		"low": 63.47,
+		"volume": 6900500
+	},
+	{
+		"symbol": "KVUE",
+		"name": "Kenvue Inc",
+		"last": 16.88,
+		"change": 0.42,
+		"changePercentage": 2.55,
+		"high": 17.04,
+		"low": 16.49,
+		"volume": 47283800
+	},
+	{
+		"symbol": "L",
+		"name": "Loews Corp",
+		"last": 102.59,
+		"change": 0.96,
+		"changePercentage": 0.94,
+		"high": 103.14,
+		"low": 101.71,
+		"volume": 706100
+	},
+	{
+		"symbol": "LDOS",
+		"name": "Leidos Holdings Inc",
+		"last": 196.98,
+		"change": 2.22,
+		"changePercentage": 1.14,
+		"high": 198.0,
+		"low": 193.05,
+		"volume": 605600
+	},
+	{
+		"symbol": "LEN",
+		"name": "Lennar Corp",
+		"last": 121.55,
+		"change": 1.22,
+		"changePercentage": 1.01,
+		"high": 121.55,
+		"low": 118.94,
+		"volume": 4076400
+	},
+	{
+		"symbol": "LH",
+		"name": "Laboratory Corp of America Holdings",
+		"last": 252.72,
+		"change": 6.08,
+		"changePercentage": 2.47,
+		"high": 252.76,
+		"low": 244.52,
+		"volume": 1189100
+	},
+	{
+		"symbol": "LHX",
+		"name": "L3Harris Technologies Inc",
+		"last": 290.66,
+		"change": 5.64,
+		"changePercentage": 1.98,
+		"high": 292.51,
+		"low": 284.24,
+		"volume": 928600
+	},
+	{
+		"symbol": "LII",
+		"name": "Lennox International",
+		"last": 492.22,
+		"change": 1.22,
+		"changePercentage": 0.25,
+		"high": 494.06,
+		"low": 482.01,
+		"volume": 433200
+	},
+	{
+		"symbol": "LIN",
+		"name": "Linde Plc",
+		"last": 420.51,
+		"change": 5.19,
+		"changePercentage": 1.25,
+		"high": 422.82,
+		"low": 414.0,
+		"volume": 2563300
+	},
+	{
+		"symbol": "LKQ",
+		"name": "LKQ Corp",
+		"last": 30.37,
+		"change": 0.35,
+		"changePercentage": 1.17,
+		"high": 30.41,
+		"low": 29.76,
+		"volume": 2575200
+	},
+	{
+		"symbol": "LLY",
+		"name": "Eli Lilly and Company",
+		"last": 924.37,
+		"change": -13.07,
+		"changePercentage": -1.39,
+		"high": 932.0,
+		"low": 900.9,
+		"volume": 4373400
+	},
+	{
+		"symbol": "LMT",
+		"name": "Lockheed Martin Corp",
+		"last": 458.35,
+		"change": -10.57,
+		"changePercentage": -2.25,
+		"high": 469.41,
+		"low": 456.2,
+		"volume": 2514500
+	},
+	{
+		"symbol": "LNT",
+		"name": "Alliant Energy Corp",
+		"last": 67.34,
+		"change": 0.6,
+		"changePercentage": 0.9,
+		"high": 68.24,
+		"low": 65.78,
+		"volume": 5146300
+	},
+	{
+		"symbol": "LOW",
+		"name": "Lowe's Companies",
+		"last": 233.16,
+		"change": 1.81,
+		"changePercentage": 0.78,
+		"high": 234.18,
+		"low": 231.12,
+		"volume": 3054200
+	},
+	{
+		"symbol": "LRCX",
+		"name": "Lam Research Corp",
+		"last": 159.35,
+		"change": -2.84,
+		"changePercentage": -1.75,
+		"high": 159.95,
+		"low": 153.2,
+		"volume": 11609301
+	},
+	{
+		"symbol": "LULU",
+		"name": "Lululemon Athletica",
+		"last": 166.13,
+		"change": 2.58,
+		"changePercentage": 1.58,
+		"high": 167.12,
+		"low": 161.7,
+		"volume": 2912600
+	},
+	{
+		"symbol": "LUV",
+		"name": "Southwest Airlines Company",
+		"last": 32.45,
+		"change": 0.94,
+		"changePercentage": 2.98,
+		"high": 32.47,
+		"low": 30.85,
+		"volume": 8647000
+	},
+	{
+		"symbol": "LVS",
+		"name": "Las Vegas Sands",
+		"last": 65.21,
+		"change": 2.42,
+		"changePercentage": 3.85,
+		"high": 65.55,
+		"low": 61.62,
+		"volume": 6105500
+	},
+	{
+		"symbol": "LW",
+		"name": "Lamb Weston Holdings Inc",
+		"last": 62.42,
+		"change": 0.53,
+		"changePercentage": 0.86,
+		"high": 62.48,
+		"low": 61.42,
+		"volume": 1407600
+	},
+	{
+		"symbol": "LYB",
+		"name": "Lyondellbasell Industries NV",
+		"last": 43.02,
+		"change": 0.64,
+		"changePercentage": 1.51,
+		"high": 43.42,
+		"low": 42.26,
+		"volume": 6195200
+	},
+	{
+		"symbol": "LYV",
+		"name": "Live Nation Entertainment",
+		"last": 140.51,
+		"change": 2.74,
+		"changePercentage": 1.99,
+		"high": 142.07,
+		"low": 135.04,
+		"volume": 4124400
+	},
+	{
+		"symbol": "MA",
+		"name": "Mastercard Inc",
+		"last": 551.97,
+		"change": -1.31,
+		"changePercentage": -0.24,
+		"high": 558.67,
+		"low": 550.67,
+		"volume": 2510500
+	},
+	{
+		"symbol": "MAA",
+		"name": "Mid-America Apartment Communities",
+		"last": 129.65,
+		"change": 2.61,
+		"changePercentage": 2.05,
+		"high": 129.68,
+		"low": 127.04,
+		"volume": 1134200
+	},
+	{
+		"symbol": "MAR",
+		"name": "Marriot Int Cl A",
+		"last": 291.16,
+		"change": 10.02,
+		"changePercentage": 3.56,
+		"high": 291.66,
+		"low": 281.93,
+		"volume": 2471500
+	},
+	{
+		"symbol": "MAS",
+		"name": "Masco Corp",
+		"last": 61.99,
+		"change": 0.2,
+		"changePercentage": 0.32,
+		"high": 62.48,
+		"low": 61.4,
+		"volume": 3024500
+	},
+	{
+		"symbol": "MCD",
+		"name": "McDonald's Corp",
+		"last": 299.66,
+		"change": 1.25,
+		"changePercentage": 0.42,
+		"high": 302.55,
+		"low": 298.33,
+		"volume": 3250100
+	},
+	{
+		"symbol": "MCHP",
+		"name": "Microchip Technology",
+		"last": 56.28,
+		"change": -3.07,
+		"changePercentage": -5.17,
+		"high": 56.3,
+		"low": 52.81,
+		"volume": 19099500
+	},
+	{
+		"symbol": "MCK",
+		"name": "Mckesson Corp",
+		"last": 851.99,
+		"change": -6.62,
+		"changePercentage": -0.77,
+		"high": 867.63,
+		"low": 846.43,
+		"volume": 619300
+	},
+	{
+		"symbol": "MCO",
+		"name": "Moody's Corp",
+		"last": 487.98,
+		"change": 5.77,
+		"changePercentage": 1.2,
+		"high": 488.15,
+		"low": 479.17,
+		"volume": 656000
+	},
+	{
+		"symbol": "MDLZ",
+		"name": "Mondelez Intl Inc",
+		"last": 57.18,
+		"change": 0.99,
+		"changePercentage": 1.76,
+		"high": 57.82,
+		"low": 56.19,
+		"volume": 8717300
+	},
+	{
+		"symbol": "MDT",
+		"name": "Medtronic Inc",
+		"last": 92.2,
+		"change": 2.14,
+		"changePercentage": 2.38,
+		"high": 92.24,
+		"low": 90.2,
+		"volume": 7520600
+	},
+	{
+		"symbol": "MET",
+		"name": "Metlife Inc",
+		"last": 76.15,
+		"change": 0.18,
+		"changePercentage": 0.24,
+		"high": 76.17,
+		"low": 74.41,
+		"volume": 6229000
+	},
+	{
+		"symbol": "META",
+		"name": "Meta Platforms Inc",
+		"last": 621.71,
+		"change": 2.77,
+		"changePercentage": 0.45,
+		"high": 622.13,
+		"low": 601.2,
+		"volume": 29946801
+	},
+	{
+		"symbol": "MGM",
+		"name": "MGM Resorts International",
+		"last": 32.66,
+		"change": 0.94,
+		"changePercentage": 2.96,
+		"high": 32.93,
+		"low": 31.35,
+		"volume": 4249700
+	},
+	{
+		"symbol": "MHK",
+		"name": "Mohawk Industries",
+		"last": 108.69,
+		"change": 1.81,
+		"changePercentage": 1.69,
+		"high": 109.44,
+		"low": 106.71,
+		"volume": 902600
+	},
+	{
+		"symbol": "MKC",
+		"name": "Mccormick & Company",
+		"last": 65.04,
+		"change": 0.99,
+		"changePercentage": 1.55,
+		"high": 65.57,
+		"low": 64.12,
+		"volume": 1663200
+	},
+	{
+		"symbol": "MLM",
+		"name": "Martin Marietta Materials",
+		"last": 610.64,
+		"change": 2.31,
+		"changePercentage": 0.38,
+		"high": 615.28,
+		"low": 604.71,
+		"volume": 358500
+	},
+	{
+		"symbol": "MMC",
+		"name": "Marsh & Mclennan Companies",
+		"last": 180.05,
+		"change": 3.47,
+		"changePercentage": 1.97,
+		"high": 180.57,
+		"low": 175.62,
+		"volume": 2902700
+	},
+	{
+		"symbol": "MMM",
+		"name": "3M Company",
+		"last": 164.84,
+		"change": 0.99,
+		"changePercentage": 0.6,
+		"high": 165.28,
+		"low": 162.66,
+		"volume": 2506300
+	},
+	{
+		"symbol": "MNST",
+		"name": "Monster Beverage Corp",
+		"last": 69.73,
+		"change": 3.42,
+		"changePercentage": 5.16,
+		"high": 72.62,
+		"low": 68.51,
+		"volume": 14099801
+	},
+	{
+		"symbol": "MO",
+		"name": "Altria Group",
+		"last": 58.03,
+		"change": 0.76,
+		"changePercentage": 1.33,
+		"high": 58.13,
+		"low": 57.15,
+		"volume": 8937400
+	},
+	{
+		"symbol": "MOH",
+		"name": "Molina Healthcare Inc",
+		"last": 152.06,
+		"change": 4.94,
+		"changePercentage": 3.36,
+		"high": 152.17,
+		"low": 145.03,
+		"volume": 1707500
+	},
+	{
+		"symbol": "MOS",
+		"name": "Mosaic Company",
+		"last": 25.58,
+		"change": 0.66,
+		"changePercentage": 2.65,
+		"high": 25.72,
+		"low": 24.99,
+		"volume": 8226600
+	},
+	{
+		"symbol": "MPC",
+		"name": "Marathon Petroleum Corp",
+		"last": 193.76,
+		"change": 1.04,
+		"changePercentage": 0.54,
+		"high": 197.07,
+		"low": 191.57,
+		"volume": 2174100
+	},
+	{
+		"symbol": "MPWR",
+		"name": "Monolithic Power Sys",
+		"last": 958.26,
+		"change": 0.19,
+		"changePercentage": 0.02,
+		"high": 959.01,
+		"low": 904.06,
+		"volume": 740000
+	},
+	{
+		"symbol": "MRK",
+		"name": "Merck & Company",
+		"last": 86.28,
+		"change": 0.5,
+		"changePercentage": 0.58,
+		"high": 86.59,
+		"low": 85.24,
+		"volume": 9214300
+	},
+	{
+		"symbol": "MRNA",
+		"name": "Moderna Inc",
+		"last": 24.54,
+		"change": 0.21,
+		"changePercentage": 0.86,
+		"high": 24.57,
+		"low": 23.04,
+		"volume": 10383600
+	},
+	{
+		"symbol": "MS",
+		"name": "Morgan Stanley",
+		"last": 162.36,
+		"change": -1.06,
+		"changePercentage": -0.65,
+		"high": 162.6,
+		"low": 158.06,
+		"volume": 6323300
+	},
+	{
+		"symbol": "MSCI",
+		"name": "MSCI Inc",
+		"last": 582.85,
+		"change": 2.46,
+		"changePercentage": 0.42,
+		"high": 583.67,
+		"low": 576.85,
+		"volume": 552500
+	},
+	{
+		"symbol": "MSFT",
+		"name": "Microsoft Corp",
+		"last": 496.82,
+		"change": -0.28,
+		"changePercentage": -0.06,
+		"high": 499.38,
+		"low": 493.25,
+		"volume": 24019699
+	},
+	{
+		"symbol": "MSI",
+		"name": "Motorola Solutions",
+		"last": 390.75,
+		"change": 1.65,
+		"changePercentage": 0.42,
+		"high": 394.61,
+		"low": 388.15,
+		"volume": 1057200
+	},
+	{
+		"symbol": "MTB",
+		"name": "M&T Bank Corp",
+		"last": 185.86,
+		"change": 2.56,
+		"changePercentage": 1.4,
+		"high": 185.89,
+		"low": 182.43,
+		"volume": 768600
+	},
+	{
+		"symbol": "MTCH",
+		"name": "Match Group Inc",
+		"last": 32.87,
+		"change": 0.22,
+		"changePercentage": 0.67,
+		"high": 33.15,
+		"low": 32.45,
+		"volume": 3872700
+	},
+	{
+		"symbol": "MTD",
+		"name": "Mettler-Toledo International",
+		"last": 1439.35,
+		"change": -0.27,
+		"changePercentage": -0.02,
+		"high": 1442.52,
+		"low": 1377.97,
+		"volume": 194300
+	},
+	{
+		"symbol": "MU",
+		"name": "Micron Technology",
+		"last": 237.92,
+		"change": -0.41,
+		"changePercentage": -0.17,
+		"high": 242.55,
+		"low": 226.4,
+		"volume": 30613801
+	},
+	{
+		"symbol": "NCLH",
+		"name": "Norwegian Cruise Ord",
+		"last": 19.07,
+		"change": 0.83,
+		"changePercentage": 4.55,
+		"high": 19.46,
+		"low": 18.38,
+		"volume": 25574600
+	},
+	{
+		"symbol": "NDAQ",
+		"name": "Nasdaq Inc",
+		"last": 87.24,
+		"change": 1.05,
+		"changePercentage": 1.22,
+		"high": 87.68,
+		"low": 86.08,
+		"volume": 3431200
+	},
+	{
+		"symbol": "NDSN",
+		"name": "Nordson Corp",
+		"last": 232.61,
+		"change": 2.04,
+		"changePercentage": 0.88,
+		"high": 233.46,
+		"low": 228.79,
+		"volume": 249100
+	},
+	{
+		"symbol": "NEE",
+		"name": "Nextera Energy",
+		"last": 83.93,
+		"change": 1.93,
+		"changePercentage": 2.35,
+		"high": 84.0,
+		"low": 81.62,
+		"volume": 9167100
+	},
+	{
+		"symbol": "NEM",
+		"name": "Newmont Mining Corp",
+		"last": 83.39,
+		"change": 0.86,
+		"changePercentage": 1.04,
+		"high": 83.51,
+		"low": 81.49,
+		"volume": 7555800
+	},
+	{
+		"symbol": "NFLX",
+		"name": "Netflix Inc",
+		"last": 1103.66,
+		"change": 6.64,
+		"changePercentage": 0.61,
+		"high": 1108.22,
+		"low": 1087.5,
+		"volume": 4412500
+	},
+	{
+		"symbol": "NI",
+		"name": "NiSource Inc",
+		"last": 43.55,
+		"change": 0.77,
+		"changePercentage": 1.8,
+		"high": 43.56,
+		"low": 42.6,
+		"volume": 3340900
+	},
+	{
+		"symbol": "NKE",
+		"name": "Nike Inc",
+		"last": 61.09,
+		"change": -0.8,
+		"changePercentage": -1.29,
+		"high": 62.18,
+		"low": 60.29,
+		"volume": 15504700
+	},
+	{
+		"symbol": "NOC",
+		"name": "Northrop Grumman Corp",
+		"last": 568.61,
+		"change": -3.35,
+		"changePercentage": -0.59,
+		"high": 571.97,
+		"low": 562.44,
+		"volume": 646000
+	},
+	{
+		"symbol": "NOW",
+		"name": "Servicenow Inc",
+		"last": 861.87,
+		"change": 3.1,
+		"changePercentage": 0.36,
+		"high": 863.1,
+		"low": 840.55,
+		"volume": 1632400
+	},
+	{
+		"symbol": "NRG",
+		"name": "NRG Energy",
+		"last": 172.5,
+		"change": 2.4,
+		"changePercentage": 1.41,
+		"high": 172.5,
+		"low": 162.0,
+		"volume": 2530900
+	},
+	{
+		"symbol": "NSC",
+		"name": "Norfolk Southern Corp",
+		"last": 284.25,
+		"change": 3.5,
+		"changePercentage": 1.25,
+		"high": 284.28,
+		"low": 281.02,
+		"volume": 1090300
+	},
+	{
+		"symbol": "NTAP",
+		"name": "Netapp Inc",
+		"last": 112.97,
+		"change": -0.8,
+		"changePercentage": -0.7,
+		"high": 113.55,
+		"low": 110.84,
+		"volume": 1764700
+	},
+	{
+		"symbol": "NTRS",
+		"name": "Northern Trust Corp",
+		"last": 129.96,
+		"change": 1.66,
+		"changePercentage": 1.29,
+		"high": 130.58,
+		"low": 127.18,
+		"volume": 758000
+	},
+	{
+		"symbol": "NUE",
+		"name": "Nucor Corp",
+		"last": 144.31,
+		"change": -0.35,
+		"changePercentage": -0.24,
+		"high": 144.74,
+		"low": 142.05,
+		"volume": 1134300
+	},
+	{
+		"symbol": "NVDA",
+		"name": "Nvidia Corp",
+		"last": 188.15,
+		"change": 0.07,
+		"changePercentage": 0.04,
+		"high": 188.32,
+		"low": 178.91,
+		"volume": 264942188
+	},
+	{
+		"symbol": "NVR",
+		"name": "NVR Inc",
+		"last": 7251.24,
+		"change": 56.19,
+		"changePercentage": 0.78,
+		"high": 7258.67,
+		"low": 7159.41,
+		"volume": 17100
+	},
+	{
+		"symbol": "NWS",
+		"name": "News Corp Cl B",
+		"last": 30.29,
+		"change": 1.81,
+		"changePercentage": 6.36,
+		"high": 30.34,
+		"low": 28.52,
+		"volume": 855500
+	},
+	{
+		"symbol": "NWSA",
+		"name": "News Corp Cl A",
+		"last": 26.72,
+		"change": 1.64,
+		"changePercentage": 6.54,
+		"high": 26.74,
+		"low": 24.79,
+		"volume": 6327500
+	},
+	{
+		"symbol": "NXPI",
+		"name": "Nxp Semiconductors",
+		"last": 204.56,
+		"change": -1.89,
+		"changePercentage": -0.92,
+		"high": 204.75,
+		"low": 198.5,
+		"volume": 2586400
+	},
+	{
+		"symbol": "O",
+		"name": "Realty Income Corp",
+		"last": 56.87,
+		"change": 0.54,
+		"changePercentage": 0.96,
+		"high": 56.9,
+		"low": 56.39,
+		"volume": 5958400
+	},
+	{
+		"symbol": "ODFL",
+		"name": "Old Dominion Freight Line Inc",
+		"last": 139.9,
+		"change": 2.21,
+		"changePercentage": 1.61,
+		"high": 140.19,
+		"low": 135.91,
+		"volume": 2065600
+	},
+	{
+		"symbol": "OKE",
+		"name": "Oneok Inc",
+		"last": 68.12,
+		"change": 0.31,
+		"changePercentage": 0.46,
+		"high": 68.31,
+		"low": 67.17,
+		"volume": 2804500
+	},
+	{
+		"symbol": "OMC",
+		"name": "Omnicom Group Inc",
+		"last": 74.28,
+		"change": 1.29,
+		"changePercentage": 1.77,
+		"high": 74.33,
+		"low": 72.86,
+		"volume": 3037900
+	},
+	{
+		"symbol": "ON",
+		"name": "On Semiconductor",
+		"last": 47.83,
+		"change": -0.97,
+		"changePercentage": -1.99,
+		"high": 48.34,
+		"low": 46.31,
+		"volume": 10824399
+	},
+	{
+		"symbol": "ORCL",
+		"name": "Oracle Corp",
+		"last": 239.26,
+		"change": -4.54,
+		"changePercentage": -1.86,
+		"high": 240.4,
+		"low": 232.35,
+		"volume": 20969200
+	},
+	{
+		"symbol": "ORLY",
+		"name": "O'Reilly Automotive",
+		"last": 97.09,
+		"change": 2.09,
+		"changePercentage": 2.2,
+		"high": 97.39,
+		"low": 95.02,
+		"volume": 6079800
+	},
+	{
+		"symbol": "OTIS",
+		"name": "Otis Worldwide Corp",
+		"last": 91.02,
+		"change": -0.13,
+		"changePercentage": -0.14,
+		"high": 91.28,
+		"low": 90.42,
+		"volume": 1882700
+	},
+	{
+		"symbol": "OXY",
+		"name": "Occidental Petroleum Corp",
+		"last": 41.31,
+		"change": 1.01,
+		"changePercentage": 2.51,
+		"high": 41.32,
+		"low": 40.31,
+		"volume": 10788400
+	},
+	{
+		"symbol": "PANW",
+		"name": "Palo Alto Networks Inc",
+		"last": 212.29,
+		"change": 0.92,
+		"changePercentage": 0.43,
+		"high": 212.63,
+		"low": 207.83,
+		"volume": 5046700
+	},
+	{
+		"symbol": "PAYC",
+		"name": "Paycom Software Inc",
+		"last": 162.15,
+		"change": -1.86,
+		"changePercentage": -1.13,
+		"high": 164.48,
+		"low": 159.36,
+		"volume": 944900
+	},
+	{
+		"symbol": "PAYX",
+		"name": "Paychex Inc",
+		"last": 111.96,
+		"change": -0.86,
+		"changePercentage": -0.76,
+		"high": 112.86,
+		"low": 110.7,
+		"volume": 3515000
+	},
+	{
+		"symbol": "PCAR",
+		"name": "Paccar Inc",
+		"last": 98.69,
+		"change": 0.41,
+		"changePercentage": 0.42,
+		"high": 98.97,
+		"low": 97.15,
+		"volume": 2629600
+	},
+	{
+		"symbol": "PCG",
+		"name": "Pacific Gas & Electric Company",
+		"last": 16.51,
+		"change": 0.18,
+		"changePercentage": 1.1,
+		"high": 16.52,
+		"low": 16.14,
+		"volume": 24987400
+	},
+	{
+		"symbol": "PEG",
+		"name": "Public Service Enterprise Group Inc",
+		"last": 83.31,
+		"change": 0.91,
+		"changePercentage": 1.1,
+		"high": 83.31,
+		"low": 81.69,
+		"volume": 3764300
+	},
+	{
+		"symbol": "PEP",
+		"name": "Pepsico Inc",
+		"last": 142.95,
+		"change": 1.37,
+		"changePercentage": 0.97,
+		"high": 144.05,
+		"low": 141.65,
+		"volume": 7592600
+	},
+	{
+		"symbol": "PFE",
+		"name": "Pfizer Inc",
+		"last": 24.43,
+		"change": 0.01,
+		"changePercentage": 0.04,
+		"high": 24.63,
+		"low": 24.11,
+		"volume": 117794500
+	},
+	{
+		"symbol": "PFG",
+		"name": "Principal Financial Group Inc",
+		"last": 82.86,
+		"change": 0.42,
+		"changePercentage": 0.51,
+		"high": 82.93,
+		"low": 81.57,
+		"volume": 1368100
+	},
+	{
+		"symbol": "PG",
+		"name": "Procter & Gamble Company",
+		"last": 146.98,
+		"change": 0.85,
+		"changePercentage": 0.58,
+		"high": 147.94,
+		"low": 146.0,
+		"volume": 8500000
+	},
+	{
+		"symbol": "PGR",
+		"name": "Progressive Corp",
+		"last": 217.27,
+		"change": 7.66,
+		"changePercentage": 3.65,
+		"high": 217.43,
+		"low": 210.5,
+		"volume": 5261000
+	},
+	{
+		"symbol": "PH",
+		"name": "Parker-Hannifin Corp",
+		"last": 844.01,
+		"change": 11.66,
+		"changePercentage": 1.4,
+		"high": 848.95,
+		"low": 824.68,
+		"volume": 975500
+	},
+	{
+		"symbol": "PHM",
+		"name": "Pultegroup",
+		"last": 119.76,
+		"change": 0.83,
+		"changePercentage": 0.7,
+		"high": 119.82,
+		"low": 117.74,
+		"volume": 2674900
+	},
+	{
+		"symbol": "PKG",
+		"name": "Packaging Corp of America",
+		"last": 200.55,
+		"change": 2.46,
+		"changePercentage": 1.24,
+		"high": 200.83,
+		"low": 195.75,
+		"volume": 573100
+	},
+	{
+		"symbol": "PLD",
+		"name": "Prologis Inc",
+		"last": 125.6,
+		"change": 1.6,
+		"changePercentage": 1.29,
+		"high": 125.63,
+		"low": 123.47,
+		"volume": 2322400
+	},
+	{
+		"symbol": "PLTR",
+		"name": "Palantir Technologies Inc Cl A",
+		"last": 177.93,
+		"change": 2.88,
+		"changePercentage": 1.65,
+		"high": 178.7,
+		"low": 168.91,
+		"volume": 73989602
+	},
+	{
+		"symbol": "PM",
+		"name": "Philip Morris International Inc",
+		"last": 153.39,
+		"change": 3.49,
+		"changePercentage": 2.33,
+		"high": 153.52,
+		"low": 149.37,
+		"volume": 7365200
+	},
+	{
+		"symbol": "PNC",
+		"name": "PNC Bank",
+		"last": 184.2,
+		"change": 1.28,
+		"changePercentage": 0.7,
+		"high": 184.23,
+		"low": 180.48,
+		"volume": 1390000
+	},
+	{
+		"symbol": "PNR",
+		"name": "Pentair Ltd",
+		"last": 107.36,
+		"change": 0.7,
+		"changePercentage": 0.66,
+		"high": 107.89,
+		"low": 104.9,
+		"volume": 1023700
+	},
+	{
+		"symbol": "PNW",
+		"name": "Pinnacle West Capital Corp",
+		"last": 87.97,
+		"change": 0.33,
+		"changePercentage": 0.38,
+		"high": 88.22,
+		"low": 86.73,
+		"volume": 1498600
+	},
+	{
+		"symbol": "PODD",
+		"name": "Insulet Corp",
+		"last": 319.82,
+		"change": -3.58,
+		"changePercentage": -1.11,
+		"high": 332.95,
+		"low": 316.86,
+		"volume": 677100
+	},
+	{
+		"symbol": "POOL",
+		"name": "Pool Corp",
+		"last": 252.01,
+		"change": 3.64,
+		"changePercentage": 1.47,
+		"high": 252.81,
+		"low": 245.25,
+		"volume": 1065700
+	},
+	{
+		"symbol": "PPG",
+		"name": "PPG Industries",
+		"last": 96.25,
+		"change": 1.08,
+		"changePercentage": 1.13,
+		"high": 96.51,
+		"low": 94.89,
+		"volume": 1847100
+	},
+	{
+		"symbol": "PPL",
+		"name": "PPL Corp",
+		"last": 36.58,
+		"change": 0.08,
+		"changePercentage": 0.22,
+		"high": 36.74,
+		"low": 36.35,
+		"volume": 4770500
+	},
+	{
+		"symbol": "PRU",
+		"name": "Prudential Financial Inc",
+		"last": 106.29,
+		"change": 1.09,
+		"changePercentage": 1.04,
+		"high": 106.32,
+		"low": 104.57,
+		"volume": 1524400
+	},
+	{
+		"symbol": "PSA",
+		"name": "Public Storage",
+		"last": 278.05,
+		"change": 4.09,
+		"changePercentage": 1.49,
+		"high": 278.8,
+		"low": 274.46,
+		"volume": 665100
+	},
+	{
+		"symbol": "PSKY",
+		"name": "Paramount Skydance Corporation Cl B",
+		"last": 15.1,
+		"change": 0.3,
+		"changePercentage": 2.03,
+		"high": 15.28,
+		"low": 14.65,
+		"volume": 9772800
+	},
+	{
+		"symbol": "PSX",
+		"name": "Phillips 66",
+		"last": 137.95,
+		"change": -0.25,
+		"changePercentage": -0.18,
+		"high": 140.76,
+		"low": 136.65,
+		"volume": 2123900
+	},
+	{
+		"symbol": "PTC",
+		"name": "Ptc Inc",
+		"last": 176.11,
+		"change": 2.18,
+		"changePercentage": 1.25,
+		"high": 176.77,
+		"low": 172.03,
+		"volume": 1198200
+	},
+	{
+		"symbol": "PWR",
+		"name": "Quanta Services",
+		"last": 445.01,
+		"change": 2.11,
+		"changePercentage": 0.48,
+		"high": 446.66,
+		"low": 430.11,
+		"volume": 818600
+	},
+	{
+		"symbol": "PYPL",
+		"name": "Paypal Holdings",
+		"last": 66.22,
+		"change": -0.04,
+		"changePercentage": -0.06,
+		"high": 66.51,
+		"low": 64.78,
+		"volume": 13449200
+	},
+	{
+		"symbol": "QCOM",
+		"name": "Qualcomm Inc",
+		"last": 170.89,
+		"change": -2.31,
+		"changePercentage": -1.33,
+		"high": 174.25,
+		"low": 168.25,
+		"volume": 10614700
+	},
+	{
+		"symbol": "RCL",
+		"name": "Royal Caribbean Cruises Ltd",
+		"last": 256.01,
+		"change": 2.44,
+		"changePercentage": 0.96,
+		"high": 257.73,
+		"low": 251.22,
+		"volume": 1893900
+	},
+	{
+		"symbol": "REG",
+		"name": "Regency Centers Corp",
+		"last": 69.77,
+		"change": 1.05,
+		"changePercentage": 1.53,
+		"high": 69.79,
+		"low": 68.52,
+		"volume": 941500
+	},
+	{
+		"symbol": "REGN",
+		"name": "Regeneron Pharmaceuticals",
+		"last": 657.53,
+		"change": 10.66,
+		"changePercentage": 1.65,
+		"high": 658.21,
+		"low": 640.99,
+		"volume": 782800
+	},
+	{
+		"symbol": "RF",
+		"name": "Regions Financial Corp",
+		"last": 24.85,
+		"change": 0.54,
+		"changePercentage": 2.22,
+		"high": 24.86,
+		"low": 24.16,
+		"volume": 30064900
+	},
+	{
+		"symbol": "RJF",
+		"name": "Raymond James Financial",
+		"last": 163.11,
+		"change": 2.28,
+		"changePercentage": 1.42,
+		"high": 163.2,
+		"low": 159.6,
+		"volume": 908400
+	},
+	{
+		"symbol": "RL",
+		"name": "Ralph Lauren Corp",
+		"last": 324.68,
+		"change": 9.64,
+		"changePercentage": 3.06,
+		"high": 328.17,
+		"low": 315.72,
+		"volume": 665300
+	},
+	{
+		"symbol": "RMD",
+		"name": "Resmed Inc",
+		"last": 251.49,
+		"change": 1.84,
+		"changePercentage": 0.74,
+		"high": 251.54,
+		"low": 245.85,
+		"volume": 1683000
+	},
+	{
+		"symbol": "ROK",
+		"name": "Rockwell Automation Inc",
+		"last": 373.49,
+		"change": 0.99,
+		"changePercentage": 0.27,
+		"high": 375.52,
+		"low": 363.78,
+		"volume": 1509500
+	},
+	{
+		"symbol": "ROL",
+		"name": "Rollins Inc",
+		"last": 58.61,
+		"change": -0.04,
+		"changePercentage": -0.07,
+		"high": 58.89,
+		"low": 58.29,
+		"volume": 1985300
+	},
+	{
+		"symbol": "ROP",
+		"name": "Roper Industries",
+		"last": 447.05,
+		"change": 2.57,
+		"changePercentage": 0.58,
+		"high": 448.85,
+		"low": 443.77,
+		"volume": 769700
+	},
+	{
+		"symbol": "ROST",
+		"name": "Ross Stores Inc",
+		"last": 161.08,
+		"change": 0.85,
+		"changePercentage": 0.53,
+		"high": 162.02,
+		"low": 159.98,
+		"volume": 2142000
+	},
+	{
+		"symbol": "RSG",
+		"name": "Republic Services",
+		"last": 205.59,
+		"change": 1.36,
+		"changePercentage": 0.67,
+		"high": 206.44,
+		"low": 203.72,
+		"volume": 1217900
+	},
+	{
+		"symbol": "RTX",
+		"name": "Rtx Corp",
+		"last": 176.97,
+		"change": 1.87,
+		"changePercentage": 1.07,
+		"high": 177.69,
+		"low": 173.75,
+		"volume": 3774200
+	},
+	{
+		"symbol": "RVTY",
+		"name": "Revvity Inc",
+		"last": 90.78,
+		"change": 1.26,
+		"changePercentage": 1.41,
+		"high": 90.99,
+		"low": 88.48,
+		"volume": 1242000
+	},
+	{
+		"symbol": "SBAC",
+		"name": "SBA Communications",
+		"last": 197.4,
+		"change": 2.65,
+		"changePercentage": 1.36,
+		"high": 197.58,
+		"low": 194.87,
+		"volume": 798200
+	},
+	{
+		"symbol": "SBUX",
+		"name": "Starbucks Corp",
+		"last": 85.57,
+		"change": 3.35,
+		"changePercentage": 4.07,
+		"high": 85.94,
+		"low": 81.76,
+		"volume": 15009899
+	},
+	{
+		"symbol": "SCHW",
+		"name": "The Charles Schwab Corp",
+		"last": 95.24,
+		"change": 1.04,
+		"changePercentage": 1.1,
+		"high": 95.49,
+		"low": 93.32,
+		"volume": 6744100
+	},
+	{
+		"symbol": "SHW",
+		"name": "Sherwin-Williams Company",
+		"last": 340.16,
+		"change": 6.5,
+		"changePercentage": 1.95,
+		"high": 341.34,
+		"low": 332.5,
+		"volume": 1631900
+	},
+	{
+		"symbol": "SJM",
+		"name": "J.M. Smucker Company",
+		"last": 107.06,
+		"change": 2.14,
+		"changePercentage": 2.04,
+		"high": 107.15,
+		"low": 104.63,
+		"volume": 1359400
+	},
+	{
+		"symbol": "SLB",
+		"name": "Slb Limited",
+		"last": 36.66,
+		"change": 0.3,
+		"changePercentage": 0.83,
+		"high": 36.8,
+		"low": 35.89,
+		"volume": 11074600
+	},
+	{
+		"symbol": "SMCI",
+		"name": "Super Micro Computer",
+		"last": 39.76,
+		"change": -0.58,
+		"changePercentage": -1.43,
+		"high": 40.09,
+		"low": 38.13,
+		"volume": 32960199
+	},
+	{
+		"symbol": "SNA",
+		"name": "Snap-On Inc",
+		"last": 343.71,
+		"change": 2.36,
+		"changePercentage": 0.69,
+		"high": 346.02,
+		"low": 339.59,
+		"volume": 297000
+	},
+	{
+		"symbol": "SNPS",
+		"name": "Synopsys Inc",
+		"last": 393.43,
+		"change": -2.71,
+		"changePercentage": -0.68,
+		"high": 400.31,
+		"low": 386.91,
+		"volume": 2641900
+	},
+	{
+		"symbol": "SO",
+		"name": "Southern Company",
+		"last": 91.44,
+		"change": 0.54,
+		"changePercentage": 0.59,
+		"high": 91.91,
+		"low": 90.86,
+		"volume": 4769700
+	},
+	{
+		"symbol": "SOLS",
+		"name": "Solstice Advanced Materials Inc",
+		"last": 47.49,
+		"change": 2.47,
+		"changePercentage": 5.49,
+		"high": 48.38,
+		"low": 44.08,
+		"volume": 12997100
+	},
+	{
+		"symbol": "SOLV",
+		"name": "Solventum Corporation",
+		"last": 71.52,
+		"change": 5.24,
+		"changePercentage": 7.91,
+		"high": 71.58,
+		"low": 66.8,
+		"volume": 1739300
+	},
+	{
+		"symbol": "SPG",
+		"name": "Simon Property Group",
+		"last": 183.6,
+		"change": 2.86,
+		"changePercentage": 1.58,
+		"high": 183.69,
+		"low": 180.7,
+		"volume": 1040700
+	},
+	{
+		"symbol": "SPGI",
+		"name": "S&P Global Inc",
+		"last": 496.42,
+		"change": 6.42,
+		"changePercentage": 1.31,
+		"high": 496.42,
+		"low": 486.0,
+		"volume": 1704500
+	},
+	{
+		"symbol": "SRE",
+		"name": "Sempra",
+		"last": 93.72,
+		"change": 0.94,
+		"changePercentage": 1.01,
+		"high": 93.95,
+		"low": 91.88,
+		"volume": 3505700
+	},
+	{
+		"symbol": "STE",
+		"name": "Steris Corp",
+		"last": 263.77,
+		"change": 3.71,
+		"changePercentage": 1.43,
+		"high": 264.66,
+		"low": 258.53,
+		"volume": 897400
+	},
+	{
+		"symbol": "STLD",
+		"name": "Steel Dynamics Inc",
+		"last": 151.94,
+		"change": -0.98,
+		"changePercentage": -0.64,
+		"high": 153.55,
+		"low": 150.29,
+		"volume": 1086100
+	},
+	{
+		"symbol": "STT",
+		"name": "State Street Corp",
+		"last": 118.31,
+		"change": 1.04,
+		"changePercentage": 0.89,
+		"high": 118.5,
+		"low": 115.3,
+		"volume": 1659600
+	},
+	{
+		"symbol": "STX",
+		"name": "Seagate Technology Hldgs Plc",
+		"last": 279.35,
+		"change": 0.88,
+		"changePercentage": 0.32,
+		"high": 279.81,
+		"low": 263.46,
+		"volume": 5098700
+	},
+	{
+		"symbol": "STZ",
+		"name": "Constellation Brands Inc",
+		"last": 127.65,
+		"change": -0.3,
+		"changePercentage": -0.23,
+		"high": 129.5,
+		"low": 126.64,
+		"volume": 3760300
+	},
+	{
+		"symbol": "SW",
+		"name": "Smurfit Westrock Plc",
+		"last": 35.81,
+		"change": 0.09,
+		"changePercentage": 0.25,
+		"high": 35.82,
+		"low": 35.0,
+		"volume": 4821500
+	},
+	{
+		"symbol": "SWK",
+		"name": "Stanley Black & Decker Inc",
+		"last": 68.27,
+		"change": 0.8,
+		"changePercentage": 1.19,
+		"high": 68.65,
+		"low": 66.5,
+		"volume": 1308100
+	},
+	{
+		"symbol": "SWKS",
+		"name": "Skyworks Solutions",
+		"last": 69.58,
+		"change": -1.06,
+		"changePercentage": -1.5,
+		"high": 69.68,
+		"low": 67.55,
+		"volume": 3200700
+	},
+	{
+		"symbol": "SYF",
+		"name": "Synchrony Financial",
+		"last": 73.19,
+		"change": -0.36,
+		"changePercentage": -0.49,
+		"high": 73.61,
+		"low": 72.05,
+		"volume": 3710500
+	},
+	{
+		"symbol": "SYK",
+		"name": "Stryker Corp",
+		"last": 356.03,
+		"change": 2.22,
+		"changePercentage": 0.63,
+		"high": 357.5,
+		"low": 352.5,
+		"volume": 1523200
+	},
+	{
+		"symbol": "SYY",
+		"name": "Sysco Corp",
+		"last": 75.18,
+		"change": 2.27,
+		"changePercentage": 3.11,
+		"high": 75.26,
+		"low": 73.0,
+		"volume": 3697000
+	},
+	{
+		"symbol": "T",
+		"name": "AT&T Inc",
+		"last": 24.83,
+		"change": 0.09,
+		"changePercentage": 0.36,
+		"high": 25.1,
+		"low": 24.64,
+		"volume": 62439900
+	},
+	{
+		"symbol": "TAP",
+		"name": "Molson Coors Brewing Company",
+		"last": 46.33,
+		"change": 2.24,
+		"changePercentage": 5.08,
+		"high": 46.36,
+		"low": 44.3,
+		"volume": 4323900
+	},
+	{
+		"symbol": "TDG",
+		"name": "Transdigm Group Inc",
+		"last": 1284.76,
+		"change": 13.16,
+		"changePercentage": 1.03,
+		"high": 1286.34,
+		"low": 1255.51,
+		"volume": 261900
+	},
+	{
+		"symbol": "TDY",
+		"name": "Teledyne Technologies Inc",
+		"last": 513.17,
+		"change": 6.49,
+		"changePercentage": 1.28,
+		"high": 514.6,
+		"low": 504.85,
+		"volume": 344400
+	},
+	{
+		"symbol": "TECH",
+		"name": "Bio-Techne Corp",
+		"last": 57.41,
+		"change": -0.77,
+		"changePercentage": -1.32,
+		"high": 58.04,
+		"low": 56.53,
+		"volume": 1756100
+	},
+	{
+		"symbol": "TEL",
+		"name": "Te Connectivity Ltd",
+		"last": 242.42,
+		"change": -0.08,
+		"changePercentage": -0.03,
+		"high": 242.55,
+		"low": 237.28,
+		"volume": 1936500
+	},
+	{
+		"symbol": "TER",
+		"name": "Teradyne Inc",
+		"last": 182.28,
+		"change": -2.74,
+		"changePercentage": -1.48,
+		"high": 182.5,
+		"low": 174.85,
+		"volume": 3627300
+	},
+	{
+		"symbol": "TFC",
+		"name": "Truist Financial Corp",
+		"last": 44.74,
+		"change": 0.73,
+		"changePercentage": 1.66,
+		"high": 44.74,
+		"low": 43.63,
+		"volume": 6741000
+	},
+	{
+		"symbol": "TGT",
+		"name": "Target Corp",
+		"last": 91.24,
+		"change": 2.09,
+		"changePercentage": 2.34,
+		"high": 91.58,
+		"low": 89.15,
+		"volume": 6524800
+	},
+	{
+		"symbol": "TJX",
+		"name": "TJX Companies",
+		"last": 144.61,
+		"change": 0.84,
+		"changePercentage": 0.58,
+		"high": 145.11,
+		"low": 143.34,
+		"volume": 5638000
+	},
+	{
+		"symbol": "TKO",
+		"name": "Tko Group Holdings Inc Cl A",
+		"last": 182.56,
+		"change": 1.56,
+		"changePercentage": 0.86,
+		"high": 183.2,
+		"low": 179.22,
+		"volume": 1170100
+	},
+	{
+		"symbol": "TMO",
+		"name": "Thermo Fisher Scientific Inc",
+		"last": 572.41,
+		"change": 6.43,
+		"changePercentage": 1.14,
+		"high": 577.35,
+		"low": 563.3,
+		"volume": 2264000
+	},
+	{
+		"symbol": "TMUS",
+		"name": "T-Mobile US",
+		"last": 207.0,
+		"change": 5.99,
+		"changePercentage": 2.98,
+		"high": 208.57,
+		"low": 201.58,
+		"volume": 6464100
+	},
+	{
+		"symbol": "TPL",
+		"name": "Texas Pacific Land Trust",
+		"last": 981.69,
+		"change": -29.44,
+		"changePercentage": -2.91,
+		"high": 1019.93,
+		"low": 937.64,
+		"volume": 173700
+	},
+	{
+		"symbol": "TPR",
+		"name": "Tapestry Inc",
+		"last": 103.68,
+		"change": 4.87,
+		"changePercentage": 4.93,
+		"high": 104.03,
+		"low": 99.0,
+		"volume": 6671400
+	},
+	{
+		"symbol": "TRGP",
+		"name": "Targa Resources",
+		"last": 172.06,
+		"change": 2.18,
+		"changePercentage": 1.28,
+		"high": 173.26,
+		"low": 167.22,
+		"volume": 2151500
+	},
+	{
+		"symbol": "TRMB",
+		"name": "Trimble Navigation",
+		"last": 78.9,
+		"change": 0.08,
+		"changePercentage": 0.1,
+		"high": 79.39,
+		"low": 77.83,
+		"volume": 1096600
+	},
+	{
+		"symbol": "TROW",
+		"name": "T Rowe Price Group",
+		"last": 102.66,
+		"change": 0.51,
+		"changePercentage": 0.5,
+		"high": 102.75,
+		"low": 100.75,
+		"volume": 1842800
+	},
+	{
+		"symbol": "TRV",
+		"name": "The Travelers Companies Inc",
+		"last": 279.81,
+		"change": 3.55,
+		"changePercentage": 1.29,
+		"high": 280.7,
+		"low": 276.0,
+		"volume": 931100
+	},
+	{
+		"symbol": "TSCO",
+		"name": "Tractor Supply Company",
+		"last": 54.27,
+		"change": 1.17,
+		"changePercentage": 2.2,
+		"high": 54.3,
+		"low": 53.15,
+		"volume": 3585700
+	},
+	{
+		"symbol": "TSLA",
+		"name": "Tesla Inc",
+		"last": 429.52,
+		"change": -16.39,
+		"changePercentage": -3.68,
+		"high": 439.36,
+		"low": 421.88,
+		"volume": 103471398
+	},
+	{
+		"symbol": "TSN",
+		"name": "Tyson Foods",
+		"last": 52.68,
+		"change": 0.99,
+		"changePercentage": 1.92,
+		"high": 53.35,
+		"low": 50.65,
+		"volume": 8163400
+	},
+	{
+		"symbol": "TT",
+		"name": "Trane Technologies Plc",
+		"last": 434.5,
+		"change": -1.1,
+		"changePercentage": -0.25,
+		"high": 434.5,
+		"low": 425.0,
+		"volume": 977200
+	},
+	{
+		"symbol": "TTD",
+		"name": "Trade Desk Inc",
+		"last": 43.0,
+		"change": -2.9,
+		"changePercentage": -6.32,
+		"high": 46.0,
+		"low": 41.77,
+		"volume": 34336102
+	},
+	{
+		"symbol": "TTWO",
+		"name": "Take-Two Interactive",
+		"last": 232.0,
+		"change": -20.4,
+		"changePercentage": -8.08,
+		"high": 243.56,
+		"low": 227.25,
+		"volume": 5792500
+	},
+	{
+		"symbol": "TXN",
+		"name": "Texas Instruments",
+		"last": 160.55,
+		"change": -0.83,
+		"changePercentage": -0.51,
+		"high": 160.6,
+		"low": 156.89,
+		"volume": 8837600
+	},
+	{
+		"symbol": "TXT",
+		"name": "Textron Inc",
+		"last": 82.03,
+		"change": 1.6,
+		"changePercentage": 1.99,
+		"high": 82.09,
+		"low": 80.09,
+		"volume": 1371500
+	},
+	{
+		"symbol": "TYL",
+		"name": "Tyler Technologies",
+		"last": 463.43,
+		"change": -1.58,
+		"changePercentage": -0.34,
+		"high": 471.28,
+		"low": 456.38,
+		"volume": 344900
+	},
+	{
+		"symbol": "UAL",
+		"name": "United Airlines Holdings Inc",
+		"last": 97.43,
+		"change": 1.71,
+		"changePercentage": 1.79,
+		"high": 100.29,
+		"low": 92.5,
+		"volume": 6143700
+	},
+	{
+		"symbol": "UBER",
+		"name": "Uber Technologies Inc",
+		"last": 91.99,
+		"change": -0.13,
+		"changePercentage": -0.14,
+		"high": 93.17,
+		"low": 90.3,
+		"volume": 16489900
+	},
+	{
+		"symbol": "UDR",
+		"name": "United Dominion Realty Trust",
+		"last": 34.47,
+		"change": 0.7,
+		"changePercentage": 2.07,
+		"high": 34.5,
+		"low": 33.84,
+		"volume": 2808200
+	},
+	{
+		"symbol": "UHS",
+		"name": "Universal Health Services",
+		"last": 229.23,
+		"change": 2.84,
+		"changePercentage": 1.25,
+		"high": 229.76,
+		"low": 225.3,
+		"volume": 573100
+	},
+	{
+		"symbol": "ULTA",
+		"name": "Ulta Beauty Inc",
+		"last": 517.79,
+		"change": 7.94,
+		"changePercentage": 1.56,
+		"high": 519.95,
+		"low": 508.17,
+		"volume": 433000
+	},
+	{
+		"symbol": "UNH",
+		"name": "Unitedhealth Group Inc",
+		"last": 324.21,
+		"change": 2.65,
+		"changePercentage": 0.82,
+		"high": 324.55,
+		"low": 314.16,
+		"volume": 9402800
+	},
+	{
+		"symbol": "UNP",
+		"name": "Union Pacific Corp",
+		"last": 221.48,
+		"change": 3.49,
+		"changePercentage": 1.6,
+		"high": 221.68,
+		"low": 218.2,
+		"volume": 3735600
+	},
+	{
+		"symbol": "UPS",
+		"name": "United Parcel Service",
+		"last": 95.95,
+		"change": 2.35,
+		"changePercentage": 2.51,
+		"high": 96.22,
+		"low": 93.2,
+		"volume": 7741700
+	},
+	{
+		"symbol": "URI",
+		"name": "United Rentals",
+		"last": 848.25,
+		"change": 3.21,
+		"changePercentage": 0.38,
+		"high": 851.65,
+		"low": 833.45,
+		"volume": 376800
+	},
+	{
+		"symbol": "USB",
+		"name": "U.S. Bancorp",
+		"last": 47.32,
+		"change": 0.47,
+		"changePercentage": 1.0,
+		"high": 47.34,
+		"low": 46.47,
+		"volume": 6870300
+	},
+	{
+		"symbol": "V",
+		"name": "Visa Inc",
+		"last": 336.02,
+		"change": -0.94,
+		"changePercentage": -0.28,
+		"high": 338.29,
+		"low": 334.85,
+		"volume": 5318300
+	},
+	{
+		"symbol": "VICI",
+		"name": "Vici Properties Inc",
+		"last": 30.34,
+		"change": 0.56,
+		"changePercentage": 1.88,
+		"high": 30.38,
+		"low": 29.85,
+		"volume": 8661100
+	},
+	{
+		"symbol": "VLO",
+		"name": "Valero Energy Corp",
+		"last": 175.62,
+		"change": -0.39,
+		"changePercentage": -0.22,
+		"high": 179.0,
+		"low": 174.26,
+		"volume": 2393400
+	},
+	{
+		"symbol": "VLTO",
+		"name": "Veralto Corporation",
+		"last": 98.61,
+		"change": 0.09,
+		"changePercentage": 0.09,
+		"high": 99.18,
+		"low": 97.87,
+		"volume": 1669800
+	},
+	{
+		"symbol": "VMC",
+		"name": "Vulcan Materials Company",
+		"last": 287.3,
+		"change": 1.0,
+		"changePercentage": 0.35,
+		"high": 289.99,
+		"low": 283.23,
+		"volume": 1688300
+	},
+	{
+		"symbol": "VRSK",
+		"name": "Verisk Analytics Inc",
+		"last": 214.66,
+		"change": 1.79,
+		"changePercentage": 0.84,
+		"high": 216.09,
+		"low": 211.63,
+		"volume": 1292700
+	},
+	{
+		"symbol": "VRSN",
+		"name": "Verisign Inc",
+		"last": 241.97,
+		"change": 2.37,
+		"changePercentage": 0.99,
+		"high": 243.18,
+		"low": 238.75,
+		"volume": 613000
+	},
+	{
+		"symbol": "VRTX",
+		"name": "Vertex Pharmaceutic",
+		"last": 409.47,
+		"change": -6.78,
+		"changePercentage": -1.63,
+		"high": 416.27,
+		"low": 406.67,
+		"volume": 1357900
+	},
+	{
+		"symbol": "VST",
+		"name": "Vistra Energy Corp",
+		"last": 191.0,
+		"change": 6.38,
+		"changePercentage": 3.46,
+		"high": 191.08,
+		"low": 176.6,
+		"volume": 5805300
+	},
+	{
+		"symbol": "VTR",
+		"name": "Ventas Inc",
+		"last": 76.07,
+		"change": 1.12,
+		"changePercentage": 1.49,
+		"high": 76.22,
+		"low": 74.63,
+		"volume": 3378300
+	},
+	{
+		"symbol": "VTRS",
+		"name": "Viatris Inc",
+		"last": 10.12,
+		"change": 0.01,
+		"changePercentage": 0.1,
+		"high": 10.16,
+		"low": 9.92,
+		"volume": 12732601
+	},
+	{
+		"symbol": "VZ",
+		"name": "Verizon Communications Inc",
+		"last": 40.03,
+		"change": 0.21,
+		"changePercentage": 0.53,
+		"high": 40.32,
+		"low": 39.66,
+		"volume": 28389400
+	},
+	{
+		"symbol": "WAB",
+		"name": "Wabtec Corp",
+		"last": 206.31,
+		"change": 2.54,
+		"changePercentage": 1.25,
+		"high": 206.48,
+		"low": 201.55,
+		"volume": 957700
+	},
+	{
+		"symbol": "WAT",
+		"name": "Waters Corp",
+		"last": 371.69,
+		"change": 0.53,
+		"changePercentage": 0.14,
+		"high": 372.81,
+		"low": 364.93,
+		"volume": 408100
+	},
+	{
+		"symbol": "WBD",
+		"name": "Discovery Inc Series A",
+		"last": 22.67,
+		"change": 0.25,
+		"changePercentage": 1.12,
+		"high": 22.98,
+		"low": 22.25,
+		"volume": 30905400
+	},
+	{
+		"symbol": "WDAY",
+		"name": "Workday Inc",
+		"last": 225.17,
+		"change": 0.67,
+		"changePercentage": 0.3,
+		"high": 226.6,
+		"low": 220.41,
+		"volume": 3695100
+	},
+	{
+		"symbol": "WDC",
+		"name": "Western Digital Corp",
+		"last": 162.96,
+		"change": -0.65,
+		"changePercentage": -0.39,
+		"high": 163.24,
+		"low": 152.81,
+		"volume": 9652800
+	},
+	{
+		"symbol": "WEC",
+		"name": "Wisconsin Energy Corp",
+		"last": 112.87,
+		"change": 2.09,
+		"changePercentage": 1.89,
+		"high": 112.94,
+		"low": 111.01,
+		"volume": 1822300
+	},
+	{
+		"symbol": "WELL",
+		"name": "Welltower Inc",
+		"last": 190.25,
+		"change": 2.49,
+		"changePercentage": 1.33,
+		"high": 190.68,
+		"low": 186.23,
+		"volume": 3319600
+	},
+	{
+		"symbol": "WFC",
+		"name": "Wells Fargo & Company",
+		"last": 86.04,
+		"change": 0.45,
+		"changePercentage": 0.53,
+		"high": 86.09,
+		"low": 84.04,
+		"volume": 15612000
+	},
+	{
+		"symbol": "WM",
+		"name": "Waste Management",
+		"last": 201.92,
+		"change": 2.3,
+		"changePercentage": 1.15,
+		"high": 202.3,
+		"low": 199.86,
+		"volume": 1668500
+	},
+	{
+		"symbol": "WMB",
+		"name": "Williams Companies",
+		"last": 59.58,
+		"change": 1.64,
+		"changePercentage": 2.83,
+		"high": 59.77,
+		"low": 57.8,
+		"volume": 9730000
+	},
+	{
+		"symbol": "WMT",
+		"name": "Walmart Inc",
+		"last": 102.59,
+		"change": 0.91,
+		"changePercentage": 0.89,
+		"high": 102.97,
+		"low": 101.73,
+		"volume": 17248700
+	},
+	{
+		"symbol": "WRB",
+		"name": "W.R. Berkley Corp",
+		"last": 74.97,
+		"change": 0.39,
+		"changePercentage": 0.52,
+		"high": 75.63,
+		"low": 74.16,
+		"volume": 2048000
+	},
+	{
+		"symbol": "WSM",
+		"name": "Williams-Sonoma",
+		"last": 196.95,
+		"change": 5.08,
+		"changePercentage": 2.65,
+		"high": 198.1,
+		"low": 191.95,
+		"volume": 752100
+	},
+	{
+		"symbol": "WST",
+		"name": "West Pharmaceutical Services",
+		"last": 271.04,
+		"change": -4.3,
+		"changePercentage": -1.56,
+		"high": 280.8,
+		"low": 268.15,
+		"volume": 856200
+	},
+	{
+		"symbol": "WTW",
+		"name": "Willis Towers Watson Public Ltd",
+		"last": 326.05,
+		"change": 3.85,
+		"changePercentage": 1.19,
+		"high": 328.67,
+		"low": 323.78,
+		"volume": 504100
+	},
+	{
+		"symbol": "WY",
+		"name": "Weyerhaeuser Company",
+		"last": 23.08,
+		"change": 0.25,
+		"changePercentage": 1.1,
+		"high": 23.24,
+		"low": 22.77,
+		"volume": 6547900
+	},
+	{
+		"symbol": "WYNN",
+		"name": "Wynn Resorts Ltd",
+		"last": 126.14,
+		"change": 3.6,
+		"changePercentage": 2.94,
+		"high": 126.87,
+		"low": 119.6,
+		"volume": 3206000
+	},
+	{
+		"symbol": "XEL",
+		"name": "XCEL Energy Inc",
+		"last": 80.91,
+		"change": 0.37,
+		"changePercentage": 0.46,
+		"high": 81.4,
+		"low": 80.0,
+		"volume": 4770000
+	},
+	{
+		"symbol": "XOM",
+		"name": "Exxon Mobil Corp",
+		"last": 117.22,
+		"change": 2.72,
+		"changePercentage": 2.38,
+		"high": 117.51,
+		"low": 114.9,
+		"volume": 17181100
+	},
+	{
+		"symbol": "XYL",
+		"name": "Xylem Inc",
+		"last": 151.31,
+		"change": 0.97,
+		"changePercentage": 0.65,
+		"high": 152.01,
+		"low": 149.5,
+		"volume": 1020800
+	},
+	{
+		"symbol": "XYZ",
+		"name": "Block Inc",
+		"last": 65.45,
+		"change": -5.48,
+		"changePercentage": -7.73,
+		"high": 66.74,
+		"low": 61.36,
+		"volume": 21402400
+	},
+	{
+		"symbol": "YUM",
+		"name": "Yum! Brands",
+		"last": 149.12,
+		"change": 1.51,
+		"changePercentage": 1.02,
+		"high": 149.41,
+		"low": 147.72,
+		"volume": 2415500
+	},
+	{
+		"symbol": "ZBH",
+		"name": "Zimmer Biomet Holdings",
+		"last": 88.5,
+		"change": -0.01,
+		"changePercentage": -0.01,
+		"high": 90.16,
+		"low": 87.43,
+		"volume": 2628200
+	},
+	{
+		"symbol": "ZBRA",
+		"name": "Zebra Technologies",
+		"last": 259.54,
+		"change": 1.3,
+		"changePercentage": 0.5,
+		"high": 259.76,
+		"low": 252.14,
+		"volume": 777700
+	},
+	{
+		"symbol": "ZTS",
+		"name": "Zoetis Inc Cl A",
+		"last": 120.24,
+		"change": 0.68,
+		"changePercentage": 0.57,
+		"high": 120.27,
+		"low": 117.26,
+		"volume": 5808800
+	}
+]

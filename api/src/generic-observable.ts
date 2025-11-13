@@ -1,13 +1,8 @@
 export class GenericObservable<T> {
 	private _generator: Generator<T, void, unknown>;
-	public headerData: Uint8Array<ArrayBufferLike>;
 
-	constructor(
-		headerData: Uint8Array<ArrayBufferLike>,
-		generatorFn: () => Generator<T>,
-	) {
+	constructor(generatorFn: () => Generator<T>) {
 		this._generator = generatorFn();
-		this.headerData = headerData;
 	}
 
 	subscribe(callback: (value: T) => void): () => void {
