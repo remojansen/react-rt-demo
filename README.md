@@ -2,10 +2,7 @@
 
 This project demonstrates the techniques for building a high-performance, real-time dashboards using React, TypeScript, WebSockets, Protobuf.
 
-<video width="1112" height="593" controls>
-  <source src="./demo.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[demo.webm](https://github.com/user-attachments/assets/50caea1b-9ed3-4619-b7ef-48976e31c412)
 
 The architecture consists of the following main components:
 
