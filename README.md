@@ -2,7 +2,7 @@
 
 This project demonstrates the techniques for building a high-performance, real-time dashboards using React, TypeScript, WebSockets, Protobuf.
 
-Renders 200 positions from S&P 500 with price updates at 100Hz.
+Renders 200 positions from S&P 500 with price updates at 100Hz and >= 60fps.
 
 [demo.webm](https://github.com/user-attachments/assets/50caea1b-9ed3-4619-b7ef-48976e31c412)
 
