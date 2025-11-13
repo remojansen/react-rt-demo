@@ -3,7 +3,7 @@
 This project demonstrates the techniques for building a high-performance, real-time dashboards using React, TypeScript, WebSockets, Protobuf.
 
 <video width="1112" height="593" controls>
-  <source src="demo.mov" type="video/mp4">
+  <source src="./demo.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 
