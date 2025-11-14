@@ -137,7 +137,9 @@ export default function Home() {
 	return (
 		<div className="min-h-screen bg-gradient-to-br from-gray-900 to-black p-8">
 			<div>
-				<h1 className="text-4xl font-bold text-white mb-6">Real-Time P&L Dashboard</h1>
+				<h1 className="text-4xl font-bold text-white mb-6">
+					Real-Time P&L Dashboard
+				</h1>
 				{/* Summary updates immediately */}
 				<Summary aggregates={deferredAggregates} />
 				{/* Stock cards update with deferred values for smoother performance */}

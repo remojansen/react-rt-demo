@@ -62,7 +62,7 @@ flowchart LR
       repeated double data = 1 [packed=true];  // Flat array format for performance
     }
     ```
-    Data format: `[stockIndex₀, last₀, change₀, changePercentage₀, high₀, low₀, volume₀, stockIndex₁, last₁, ...]` - 7 values per updated stock.
+    Data format: `[stockIndex, last, change, changePercentage, high, low, volume, stockIndex₁, last₁, ...]` - 7 values per updated stock.
 
 - **[`GenericObservable`](api/src/generic-observable.ts)**: Simple abstraction that separates data generation from WebSocket transmission logic using generator functions.
 
