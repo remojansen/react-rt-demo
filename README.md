@@ -46,7 +46,7 @@ cd api
 npm start
 ```
 
-The API server will start on `http://localhost:8080` and begin generating mock stock data at 100Hz frequency.
+The API server will start on `http://localhost:8080` and begin generating mock stock data at `process.env.MHZ` frequency.
 
 #### Start the UI Development Server (Terminal 2)
 ```bash
@@ -72,7 +72,7 @@ MHZ=200 npm start
 MHZ=1000 npm start
 ```
 
-**Note**: The default frequency is 100Hz (100 updates per second). Higher frequencies will increase CPU usage and may impact rendering performance depending on your hardware.
+**Note**: The default frequency is `process.env.MHZ` (100 updates per second). Higher frequencies will increase CPU usage and may impact rendering performance depending on your hardware.
 
 ### 5. Verify the Setup
 
@@ -141,7 +141,7 @@ flowchart LR
     }
     ```
   
-  - **`PriceUpdates`**: Sent at 100Hz frequency. Contains delta updates using packed arrays:
+  - **`PriceUpdates`**: Sent at `process.env.MHZ` frequency. Contains delta updates using packed arrays:
     ```proto
     message PriceUpdates {
       repeated double data = 1 [packed=true];  // Flat array format for performance
@@ -151,7 +151,7 @@ flowchart LR
 
 - **[`GenericObservable`](api/src/generic-observable.ts)**: Simple abstraction that separates data generation from WebSocket transmission logic using generator functions.
 
-- **[`WebSocketServer`](api/src/web-socket.ts)**: Manages WebSocket connections and broadcasts encoded stock data. Sends `HeaderData` immediately on connection, then `PriceUpdates` at 100Hz using a heartbeat mechanism for connection health monitoring.
+- **[`WebSocketServer`](api/src/web-socket.ts)**: Manages WebSocket connections and broadcasts encoded stock data. Sends `HeaderData` immediately on connection, then `PriceUpdates` at `process.env.MHZ` using a heartbeat mechanism for connection health monitoring.
 
 ## UI Architecture
 
@@ -286,7 +286,7 @@ To debug the SharedWorker, access `chrome://inspect/#workers` or `edge://inspect
 
 ## React Performance Optimizations
 
-The application leverages several React performance hooks and patterns to maintain 60fps rendering during high-frequency updates (100Hz data from WebSocket). Here's how each optimization contributes to the overall performance:
+The application leverages several React performance hooks and patterns to maintain 60fps rendering during high-frequency updates (`process.env.MHZ` data from WebSocket). Here's how each optimization contributes to the overall performance:
 
 ### `useDeferredValue` - Concurrent Rendering Priority
 
@@ -306,7 +306,7 @@ const deferredAggregates = useDeferredValue(aggregates);
 - React automatically batches and prioritizes updates based on available browser frame time
 
 **Performance Impact:**
-- Keeps UI responsive during 100Hz data streams
+- Keeps UI responsive during `process.env.MHZ` data streams
 - Prevents dropped frames when rendering 200+ stock cards
 - Allows user interactions to take priority over background data updates
 
@@ -338,7 +338,7 @@ const memoizedValues = useMemo(() => {
 }, [aggregates.pnlAmount, aggregates.pnlPercentage, aggregates.lCount, aggregates.pCount]);
 ```
 
-**Optimization:** Caches expensive string formatting and color calculations that would otherwise run on every render (100Hz).
+**Optimization:** Caches expensive string formatting and color calculations that would otherwise run on every render (`process.env.MHZ`).
 
 ### `useCallback` - Function Reference Stability
 
@@ -428,13 +428,13 @@ const debouncedUpdateHistory = useCallback((newPrice: number) => {
 }, []);
 ```
 
-**Why Debouncing:** Throttles 100Hz WebSocket updates to 60fps for chart history updates. Prevents excessive array operations and canvas redraws while maintaining smooth visual updates.
+**Why Debouncing:** Throttles `process.env.MHZ` WebSocket updates to 60fps for chart history updates. Prevents excessive array operations and canvas redraws while maintaining smooth visual updates.
 
 ### Performance Impact Summary
 
 These optimizations work together to achieve:
 
-1. **Consistent 60fps** rendering during 100Hz data updates
+1. **Consistent 60fps** rendering during `process.env.MHZ` data updates
 2. **~95% reduction** in unnecessary re-renders 
 3. **Responsive user interactions** even during heavy data processing
 4. **Efficient memory usage** through function reference stability
