@@ -195,6 +195,10 @@ The UI uses two specialized workers for optimal performance:
  └─ stockIndex
 ```
 
+**Backpressure Management** The worker implements a two-tier backpressure system to handle scenarios where data arrives faster than it can be processed. The first tier handles initialization delays - messages are queued until protobuf is loaded and ready. The second tier manages runtime backpressure using a configurable `CircularBuffer` with a 100-message capacity and multiple dropping strategies: `drop-oldest` (FIFO), `drop-newest` (discard incoming), and `drop-middle` (preserve recent and historical data). 
+
+The system uses `requestIdleCallback` for non-blocking message processing, limiting work to 8ms per frame to maintain 60fps performance. When the buffer reaches 80% capacity, warnings are logged (in debug mode), and comprehensive metrics track drop rates, peak usage, and processing performance. This ensures the UI remains responsive even during extreme data bursts while preserving the most relevant market updates for display.
+
 #### 2. P&L Calculator Worker ([`pnl-calculator-worker.js`](ui/public/workers/pnl-calculator-worker.js))
 **Purpose**: Position filtering, sorting, and P&L calculations
 - **Delta Processing**: Only processes stocks where user has positions (filters ~500 stocks → ~200 positions)
@@ -202,8 +206,11 @@ The UI uses two specialized workers for optimal performance:
 - **Smart Sorting**: Separates and sorts by P&L percentage (losses first, biggest losses at top; then profits, biggest profits at top)
 - **Enhanced Data Format**: Transforms 7-value arrays to 9-value arrays:
   ```javascript
-  // Input: [stockIndex, last, change, changePercentage, high, low, volume]
-  // Output: [stockIndex, last, change, changePercentage, high, low, volume, unrealizedPL, unrealizedPLPercentage]
+  // Input: 
+  [stockIndex, last, change, changePercentage, high, low, volume]
+  
+  // Output:
+  [stockIndex, last, change, changePercentage, high, low, volume, unrealizedPL, unrealizedPLPercentage]
   ```
 - **Aggregation**: Calculates portfolio-level metrics (total P&L, win/loss counts)
 
