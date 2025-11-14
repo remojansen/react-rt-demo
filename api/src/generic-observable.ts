@@ -7,7 +7,7 @@ export class GenericObservable<T> {
 
 	subscribe(callback: (value: T) => void): () => void {
 		// Fake data stream at specified frequency
-		const MHZ = 100;
+		const MHZ = parseInt(process.env.MHZ || "100", 10);
 		const intervalId = setInterval(() => {
 			const { value, done } = this._generator.next();
 			if (done) {
