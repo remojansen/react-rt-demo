@@ -3,7 +3,7 @@
 This project demonstrates the techniques for building a high-performance, real-time dashboards using React, TypeScript, WebSockets, Protobuf.
 
 Renders ~200 positions from S&P 500 with price updates.
-It can easily handle at 1000Hz at >= 60fps on M1 Max MacBook Pro with 32Gb RAM.
+It can easily handle 1000Hz at >= 60fps on M1 Max MacBook Pro with 32Gb RAM.
 
 The data is generated using sine wave functions generate fake (unrealistic) stock price movements.
 
