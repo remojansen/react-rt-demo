@@ -42,7 +42,7 @@ flowchart LR
 
 ## API
 
-- **[`FastMockUpdatesGenerator`](api/src/mock-data-generator.ts)**: Generates high-frequency mock stock data updates using sine wave patterns for realistic price movements. Uses single-dimensional `Float32Array` for zero-copy operations. Implements delta processing - only queues stocks that have changed. Data format: `[stockIndex, last, change, changePercentage, high, low, volume]` repeated for each updated stock.
+- **[`FastMockUpdatesGenerator`](api/src/mock-data-generator.ts)**: Generates high-frequency mock stock data updates using sine wave patterns for realistic price movements. Uses single-dimensional `BigInt64Array` for zero-copy operations. Implements delta processing - only queues stocks that have changed. Data format: `[stockIndex, last, change, changePercentage, high, low, volume]` repeated for each updated stock.
 
 - **Protobuf Encoding/Decoding**: Efficiently encodes stock data in binary format (`Uint8Array<ArrayBufferLike>`) for WebSocket transmission. Uses two message types defined in [`demo.proto`](api/proto/demo.proto):
   
@@ -143,7 +143,7 @@ The system uses a deliberately non-human-friendly but performance-optimized flat
 2. **WebSocket Worker → P&L Worker**: Raw numeric arrays (7 values per stock)
 3. **P&L Worker → Main Thread**: Enhanced arrays (9 values per stock) + aggregates
 
-This approach eliminates object creation/destruction overhead and enables zero-copy operations with `Float32Array`.
+This approach eliminates object creation/destruction overhead and enables zero-copy operations with `BigInt64Array`.
 
 ### Main Thread Components
 
@@ -167,7 +167,7 @@ This approach eliminates object creation/destruction overhead and enables zero-c
 ## Performance Optimizations
 
 ### Zero-Copy Operations
-- `Float32Array` and `Uint8Array` prevent memory allocation overhead
+- `BigInt64Array` prevent memory allocation overhead
 - Flat array processing avoids object creation in hot paths
 - Direct array indexing instead of object property access
 
@@ -182,7 +182,7 @@ This approach eliminates object creation/destruction overhead and enables zero-c
 - **Non-blocking**: Main thread stays responsive during heavy computations
 
 ### Memory Management
-- Pre-allocated typed arrays (`Float32Array`, `Uint32Array`)
+- Pre-allocated typed arrays (`BigInt64Array`)
 - Array reuse patterns to minimize garbage collection
 - Efficient data structures (Maps for O(1) lookups vs O(n) array searches)
 

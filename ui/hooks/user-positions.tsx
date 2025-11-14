@@ -32,7 +32,6 @@ interface Item {
 	volume: number;
 }
 
-// Fast random number generator using XORShift (much faster than Math.random)
 const fastRandom = (() => {
 	let seed = Date.now() % 2147483647;
 	return () => {

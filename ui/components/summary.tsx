@@ -55,7 +55,6 @@ interface SummaryProps {
 export const Summary = memo(function Summary(props: SummaryProps) {
 	const { aggregates } = props;
 
-	// Memoize expensive calculations
 	const memoizedValues = useMemo(() => {
 		const pnlColorClass = getPLBackgroundColor(aggregates.pnlPercentage);
 		const formattedPnlAmount = formatCurrency(aggregates.pnlAmount);

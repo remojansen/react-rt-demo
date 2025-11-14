@@ -46,16 +46,13 @@ export function useProfitAndLossData() {
 			try {
 				setError(null);
 
-				// Initialize WebSocket shared worker
 				wsSharedWorker = new SharedWorker(
 					"/workers/websocket-shared-worker.js",
 				);
 				wsPort = wsSharedWorker.port;
 
-				// Initialize P&L calculation dedicated worker
 				calculatorWorker = new Worker("/workers/pnl-calculator-worker.js");
 
-				// Set up shared worker communication
 				wsPort.onmessage = (event) => {
 					const { type, data } = event.data;
 
@@ -98,7 +95,6 @@ export function useProfitAndLossData() {
 					}
 				};
 
-				// Set up P&L worker communication
 				calculatorWorker.onmessage = (event) => {
 					const { type, data } = event.data;
 
@@ -110,7 +106,6 @@ export function useProfitAndLossData() {
 					}
 				};
 
-				// Set up error handlers
 				wsSharedWorker.onerror = (event) => {
 					setError(`WebSocket worker error: ${event.message}`);
 				};
@@ -119,7 +114,6 @@ export function useProfitAndLossData() {
 					setError(`P&L worker error: ${event.message}`);
 				};
 
-				// Start the port
 				wsPort.start();
 
 				setSharedWorker(wsSharedWorker);
@@ -138,7 +132,6 @@ export function useProfitAndLossData() {
 		};
 	}, []);
 
-	// Update positions in P&L worker when they change
 	useEffect(() => {
 		if (pnlWorker && positions.length > 0) {
 			pnlWorker.postMessage({

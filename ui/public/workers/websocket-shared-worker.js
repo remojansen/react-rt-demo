@@ -3,7 +3,9 @@ const IS_DEBUG = false;
 class WebSocketSharedWorker {
 	constructor() {
 		this.connections = new Set();
-		this.websocket = null;
+		this.webSocketStream = null;
+		this.reader = null;
+		this.writer = null;
 		this.protobufRoot = null;
 		this.headerDataType = null;
 		this.priceUpdatesType = null;
@@ -18,12 +20,11 @@ class WebSocketSharedWorker {
 
 	async initializeProtobuf() {
 		try {
-			// Load protobuf.js
 			importScripts(
 				"https://cdn.jsdelivr.net/npm/protobufjs@7.2.5/dist/protobuf.min.js",
 			);
 
-			// Wait a tick to ensure the script is fully loaded
+			// Wait to ensure the script is fully loaded
 			await new Promise((resolve) => setTimeout(resolve, 0));
 
 			const protobuf = self.protobuf;
@@ -32,17 +33,13 @@ class WebSocketSharedWorker {
 				throw new Error("Protobuf library not loaded");
 			}
 
-			// Load the proto file
 			this.protobufRoot = await protobuf.load("/demo.proto");
 			this.headerDataType = this.protobufRoot.lookupType("HeaderData");
 			this.priceUpdatesType = this.protobufRoot.lookupType("PriceUpdates");
-
-			// Mark as ready
 			this.isProtobufReady = true;
 
 			if (IS_DEBUG) console.log("Protobuf initialized successfully");
 
-			// Process any pending messages
 			this.processPendingMessages();
 		} catch (error) {
 			if (IS_DEBUG) console.error("Failed to initialize protobuf:", error);
@@ -57,45 +54,62 @@ class WebSocketSharedWorker {
 		}
 	}
 
-	connect(url = this.wsUrl) {
-		if (this.websocket) this.disconnect();
+	async connect(url = this.wsUrl) {
+		if (this.webSocketStream) this.disconnect();
 
 		try {
 			if (IS_DEBUG) console.log(`Connecting to WebSocket: ${url}`);
-			this.websocket = new WebSocket(url);
-			this.websocket.binaryType = "arraybuffer";
-			this.isFirstMessage = true;
 
-			this.websocket.onopen = () => {
-				if (IS_DEBUG) console.log("WebSocket connected");
-				this.broadcastMessage({ type: "connected" });
-			};
+			this.webSocketStream = new WebSocketStream(url);
+			const { readable, writable } = await this.webSocketStream.opened;
 
-			this.websocket.onmessage = (event) => {
-				this.handleWebSocketMessage(event);
-			};
+			this.reader = readable.getReader();
+			this.writer = writable.getWriter();
 
-			this.websocket.onclose = (event) => {
-				if (IS_DEBUG)
-					console.log("WebSocket closed:", event.code, event.reason);
-				this.broadcastMessage({ type: "disconnected" });
-			};
+			this.broadcastMessage({ type: "connected" });
 
-			this.websocket.onerror = (error) => {
-				if (IS_DEBUG) console.error("WebSocket error:", error);
-				this.broadcastError("WebSocket connection error");
-			};
+			// Start reading messages
+			this.readMessages();
 		} catch (error) {
 			this.broadcastError(`Failed to connect: ${error.message}`);
 		}
 	}
 
-	disconnect() {
-		if (this.websocket) {
-			this.websocket.close();
-			this.websocket = null;
+	async readMessages() {
+		try {
+			while (true) {
+				const { value, done } = await this.reader.read();
+
+				if (done) {
+					this.broadcastMessage({ type: "disconnected" });
+					break;
+				}
+
+				this.handleWebSocketMessage({ data: value });
+			}
+		} catch (error) {
+			if (IS_DEBUG) console.error("Read error:", error);
+			this.broadcastError("WebSocket read error");
 		}
-		// Clear pending messages on disconnect
+	}
+
+	async disconnect() {
+		try {
+			if (this.reader) {
+				await this.reader.cancel();
+				this.reader = null;
+			}
+			if (this.writer) {
+				await this.writer.close();
+				this.writer = null;
+			}
+			if (this.webSocketStream) {
+				await this.webSocketStream.closed;
+				this.webSocketStream = null;
+			}
+		} catch (error) {
+			if (IS_DEBUG) console.error("Disconnect error:", error);
+		}
 		this.pendingMessages = [];
 	}
 
