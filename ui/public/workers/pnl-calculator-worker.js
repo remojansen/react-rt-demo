@@ -1,7 +1,29 @@
 class PnLCalculatorWorker {
 	constructor() {
 		this.headerData = null;
-		this.positions = []; // Array of [quantity, entryPrice]
+		this.positions = [];
+		this.PRECISION_FACTOR = 1000000n; // Use 6 decimal places for better precision
+	}
+
+	// Convert a floating-point number to BigInt with precision preservation
+	toBigIntPrecise(value) {
+		// Handle potential floating-point precision issues by using string conversion
+		const str = value.toString();
+		const [integer, decimal = ""] = str.split(".");
+		const paddedDecimal = decimal.padEnd(6, "0").slice(0, 6); // 6 decimal places
+		return BigInt(integer + paddedDecimal);
+	}
+
+	// Convert BigInt back to floating-point number
+	fromBigIntPrecise(bigIntValue) {
+		const str = bigIntValue.toString();
+		const len = str.length;
+		if (len <= 6) {
+			return Number(`0.${str.padStart(6, "0")}`);
+		}
+		const integerPart = str.slice(0, len - 6);
+		const decimalPart = str.slice(len - 6);
+		return Number(`${integerPart}.${decimalPart}`);
 	}
 
 	setHeaderData(headerData) {
@@ -17,95 +39,84 @@ class PnLCalculatorWorker {
 			return rawData;
 		}
 
-		const lossesData = []; // Array of arrays for losses (negative PnL %)
-		const profitsData = []; // Array of arrays for profits (positive PnL %)
+		const lossesData = [];
+		const profitsData = [];
 
 		let totalPnlAmountBigInt = 0n;
 		let totalInvestedAmountBigInt = 0n;
 		let positiveCount = 0;
 		let negativeCount = 0;
 
-		// Process data in chunks of 7:
-		// [symbolIndex, last, change, changePercentage, high, low, volume]
 		for (let i = 0; i < rawData.length; i += 7) {
 			const symbolIndex = rawData[i];
-
-			// Use index from header to get position from Map
 			const position = this.positions[symbolIndex];
 
-			// Only process stocks where we have positions
 			if (!position) continue;
 
 			const [quantity, entryPrice] = position;
+			const currentPrice = rawData[i + 1];
 
-			const last = rawData[i + 1];
-			const change = rawData[i + 2];
-			const changePercentage = rawData[i + 3];
-			const high = rawData[i + 4];
-			const low = rawData[i + 5];
-			const volume = rawData[i + 6];
-			const currentPrice = last;
+			// Convert all values to high-precision BigInt
+			const currentPriceBigInt = this.toBigIntPrecise(currentPrice);
+			const entryPriceBigInt = this.toBigIntPrecise(entryPrice);
+			const quantityBigInt = this.toBigIntPrecise(quantity);
 
-			// Multiply by 10000 to preserve 4 decimal places, then convert to BigInt
-			const currentPriceBigInt = BigInt(Math.round(currentPrice * 10000));
-			const entryPriceBigInt = BigInt(Math.round(entryPrice * 10000));
-			const quantityBigInt = BigInt(Math.round(quantity));
-
+			// Perform all calculations in BigInt
 			const priceDiffBigInt = currentPriceBigInt - entryPriceBigInt;
-			const unrealizedPLBigInt = (priceDiffBigInt * quantityBigInt) / 10000n;
-			const investedAmountBigInt = (entryPriceBigInt * quantityBigInt) / 10000n;
-			const unrealizedPL = Number(unrealizedPLBigInt);
+			const unrealizedPLBigInt =
+				(priceDiffBigInt * quantityBigInt) / this.PRECISION_FACTOR;
+			const investedAmountBigInt =
+				(entryPriceBigInt * quantityBigInt) / this.PRECISION_FACTOR;
 
-			const unrealizedPLPercentage =
-				entryPrice > 0 ? ((currentPrice - entryPrice) / entryPrice) * 100 : 0;
+			// Calculate percentage using BigInt arithmetic
+			const unrealizedPLPercentageBigInt =
+				entryPriceBigInt > 0n
+					? (priceDiffBigInt * 10000n) / entryPriceBigInt // 10000n for percentage with 2 decimal places
+					: 0n;
+
+			// Convert to numbers for output
+			const unrealizedPL = this.fromBigIntPrecise(unrealizedPLBigInt);
+			const unrealizedPLPercentage = Number(unrealizedPLPercentageBigInt) / 100;
 
 			totalPnlAmountBigInt += unrealizedPLBigInt;
 			totalInvestedAmountBigInt += investedAmountBigInt;
 
-			if (unrealizedPL > 0) {
+			if (unrealizedPLBigInt > 0n) {
 				positiveCount++;
-			} else if (unrealizedPL < 0) {
+			} else if (unrealizedPLBigInt < 0n) {
 				negativeCount++;
 			}
 
 			const stockData = [
 				symbolIndex,
-				last,
-				change,
-				changePercentage,
-				high,
-				low,
-				volume,
+				rawData[i + 1], // last
+				rawData[i + 2], // change
+				rawData[i + 3], // changePercentage
+				rawData[i + 4], // high
+				rawData[i + 5], // low
+				rawData[i + 6], // volume
 				unrealizedPL,
 				unrealizedPLPercentage,
 			];
 
-			// Add to appropriate array without sorting
-			if (unrealizedPLPercentage < 0) {
-				// It's a loss
+			if (unrealizedPLPercentageBigInt < 0n) {
 				lossesData.push(stockData);
 			} else {
-				// It's a profit (or break-even)
 				profitsData.push(stockData);
 			}
 		}
 
-		// Sort losses: biggest losses first (most negative first)
-		lossesData.sort((a, b) => a[8] - b[8]); // a[8] is unrealizedPLPercentage
+		// Sort using the calculated percentage values
+		lossesData.sort((a, b) => a[8] - b[8]);
+		profitsData.sort((a, b) => b[8] - a[8]);
 
-		// Sort profits: biggest profits first (most positive first)
-		profitsData.sort((a, b) => b[8] - a[8]); // b[8] is unrealizedPLPercentage
-
-		// Combine and flatten arrays (losses first, then profits)
 		const enhancedData = lossesData.concat(profitsData).flat();
+		const totalPnlAmount = this.fromBigIntPrecise(totalPnlAmountBigInt);
 
-		const totalPnlAmount = Number(totalPnlAmountBigInt);
-		const totalInvestedAmount = Number(totalInvestedAmountBigInt);
-
-		// Calculate total P&L percentage
 		const totalPnlPercentage =
-			totalInvestedAmount > 0
-				? (totalPnlAmount / totalInvestedAmount) * 100
+			totalInvestedAmountBigInt > 0n
+				? Number((totalPnlAmountBigInt * 10000n) / totalInvestedAmountBigInt) /
+					100
 				: 0;
 
 		return {
