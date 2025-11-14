@@ -31,8 +31,12 @@ const LineChartCanvas: React.FC<LineChartCanvasProps> = memo(
 			ctx.clearRect(0, 0, width, height);
 
 			// Find min/max for scaling
-			const max = Math.max(...data);
-			const min = Math.min(...data);
+			let max = data[0];
+			let min = data[0];
+			for (let i = 1; i < data.length; i++) {
+				if (data[i] > max) max = data[i];
+				if (data[i] < min) min = data[i];
+			}
 			const range = max - min || 1;
 
 			const padding = 2;

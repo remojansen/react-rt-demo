@@ -63,7 +63,7 @@ export function StockCard({
 		}
 
 		updateTimeoutRef.current = setTimeout(() => {
-			priceHistory.current = [...priceHistory.current.slice(-100), newPrice];
+			priceHistory.current = priceHistory.current.slice(-100).concat(newPrice);
 		}, 16); // ~60fps
 	}, []);
 
