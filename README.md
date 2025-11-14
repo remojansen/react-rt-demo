@@ -2,9 +2,94 @@
 
 This project demonstrates the techniques for building a high-performance, real-time dashboards using React, TypeScript, WebSockets, Protobuf.
 
-Renders 200 positions from S&P 500 with price updates at 100Hz and >= 60fps.
+Renders ~200 positions from S&P 500 with price updates.
+It can easily handle at 1000Hz at >= 60fps on M1 Max MacBook Pro with 32Gb RAM.
+
+The data is generated using sine wave functions generate fake (unrealistic) stock price movements.
+
+Positions are randomly generated on each load for demo purposes.
 
 [demo.webm](https://github.com/user-attachments/assets/50caea1b-9ed3-4619-b7ef-48976e31c412)
+
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/remojansen/react-rt-demo.git
+cd react-rt-demo
+```
+
+### 2. Install Dependencies
+
+#### Install API Dependencies
+```bash
+cd api
+npm install
+```
+
+#### Install UI Dependencies
+```bash
+cd ../ui
+npm install
+```
+
+### 3. Start the Application
+
+#### Start the API Server (Terminal 1)
+```bash
+cd api
+npm start
+```
+
+The API server will start on `http://localhost:8080` and begin generating mock stock data at 100Hz frequency.
+
+#### Start the UI Development Server (Terminal 2)
+```bash
+cd ui
+npm run dev
+```
+
+The UI will start on `http://localhost:3000` and automatically connect to the WebSocket API.
+
+### 4. Performance Testing with Custom Frequencies
+
+You can adjust the WebSocket update frequency using the `MHZ` environment variable to test performance at different data rates:
+
+```bash
+# Run at 50Hz (50 updates per second)
+cd api
+MHZ=50 npm start
+
+# Run at 200Hz (200 updates per second) 
+MHZ=200 npm start
+
+# Run at 1000Hz (1000 updates per second) - stress test
+MHZ=1000 npm start
+```
+
+**Note**: The default frequency is 100Hz (100 updates per second). Higher frequencies will increase CPU usage and may impact rendering performance depending on your hardware.
+
+### 5. Verify the Setup
+
+Once both servers are running:
+
+1. Open `http://localhost:3000` in your browser
+2. You should see a real-time dashboard with ~200 stock positions
+3. Stock prices should update smoothly at the configured frequency
+4. The summary panel should show live P&L calculations
+
+### Development Tools
+
+- **Debug WebSocket Worker**: Access `chrome://inspect/#workers` to inspect SharedWorker console output
+- **Socket Debug Tool**: Run `npm run debug-socket` in the UI folder to test WebSocket connectivity
+- **Performance Testing**: Use browser DevTools Performance tab to monitor frame rates during different MHZ settings
+
+## Architecture Overview
 
 The architecture consists of the following main components:
 
@@ -99,7 +184,7 @@ The UI uses two specialized workers for optimal performance:
  │   │      │     │     │      │      │        │   │     │      │      └─ high  
  │   │      │     │     │      │      │        │   │     │      └─ changePercentage
  │   │      │     │     │      │      │        │   │     └─ change
- │   │      │     │     │      │      │        │   └─ last
+ │   │      │     │     │      │      │        └─ last
  │   │      │     │     │      │      │        └─ stockIndex
  │   │      │     │     │      │      └─ volume
  │   │      │     │     │      └─ low
