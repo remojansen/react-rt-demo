@@ -17,8 +17,8 @@ class PnLCalculatorWorker {
 			return rawData;
 		}
 
-		const lossesData = []; // For losses (negative PnL %), biggest losses first
-		const profitsData = []; // For profits (positive PnL %), biggest profits first
+		const lossesData = []; // Array of arrays for losses (negative PnL %)
+		const profitsData = []; // Array of arrays for profits (positive PnL %)
 
 		let totalPnlAmountBigInt = 0n;
 		let totalInvestedAmountBigInt = 0n;
@@ -80,23 +80,24 @@ class PnLCalculatorWorker {
 				unrealizedPLPercentage,
 			];
 
-			// Insert in the right index based on P&L %
+			// Add to appropriate array without sorting
 			if (unrealizedPLPercentage < 0) {
-				// It's a loss - insert into losses array (biggest losses first)
-				this._insertSorted(lossesData, stockData, unrealizedPLPercentage, true);
+				// It's a loss
+				lossesData.push(stockData);
 			} else {
-				// It's a profit (or break-even) - insert into profits array (biggest profits first)
-				this._insertSorted(
-					profitsData,
-					stockData,
-					unrealizedPLPercentage,
-					false,
-				);
+				// It's a profit (or break-even)
+				profitsData.push(stockData);
 			}
 		}
 
-		// Combine losses and profits arrays (losses first, then profits)
-		const enhancedData = [...lossesData, ...profitsData];
+		// Sort losses: biggest losses first (most negative first)
+		lossesData.sort((a, b) => a[8] - b[8]); // a[8] is unrealizedPLPercentage
+
+		// Sort profits: biggest profits first (most positive first)
+		profitsData.sort((a, b) => b[8] - a[8]); // b[8] is unrealizedPLPercentage
+
+		// Combine and flatten arrays (losses first, then profits)
+		const enhancedData = lossesData.concat(profitsData).flat();
 
 		const totalPnlAmount = Number(totalPnlAmountBigInt);
 		const totalInvestedAmount = Number(totalInvestedAmountBigInt);
@@ -117,29 +118,6 @@ class PnLCalculatorWorker {
 				lCount: negativeCount,
 			},
 		};
-	}
-
-	_insertSorted(array, stockData, pnlPercentage, isLoss) {
-		let insertIndex = 0;
-
-		for (let j = 0; j < array.length; j += 9) {
-			const existingPLPercentage = array[j + 8]; // PnL percentage is at index 8
-
-			if (isLoss) {
-				// For losses: biggest losses first (most negative first)
-				if (pnlPercentage < existingPLPercentage) {
-					break;
-				}
-			} else {
-				// For profits: biggest profits first (most positive first)
-				if (pnlPercentage > existingPLPercentage) {
-					break;
-				}
-			}
-			insertIndex = j + 9;
-		}
-
-		array.splice(insertIndex, 0, ...stockData);
 	}
 
 	handleMessage(event) {
